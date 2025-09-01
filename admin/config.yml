@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: your-github-user/your-repo   # change this
+  branch: main                       # or your default branch
+
+media_folder: "static/uploads"       # where files get saved in your repo
+public_folder: "/uploads"            # how those files are referenced on the site
+
+publish_mode: editorial_workflow     # optional: review via PRs
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
