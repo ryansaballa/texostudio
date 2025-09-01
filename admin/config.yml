@@ -1,17 +1,17 @@
 backend:
   name: github
-  repo: your-github-user/your-repo   # change this
+  repo: ryansaballa/texostudio.git   # change this
   branch: main                       # or your default branch
 
-media_folder: "static/uploads"       # where files get saved in your repo
+media_folder: "images"               # where files get saved in your repo
 public_folder: "/uploads"            # how those files are referenced on the site
 
 publish_mode: editorial_workflow     # optional: review via PRs
 
 collections:
-  - name: "posts"
-    label: "Blog Posts"
-    folder: "content/posts"
+  - name: "articles"
+    label: "Articles"
+    folder: "article/posts"
     create: true
     slug: "{{slug}}"
     fields:
