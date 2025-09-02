@@ -1,0 +1,23 @@
+{
+  "name": "texostudio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryansaballa/texostudio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryansaballa/texostudio/issues"
+  },
+  "homepage": "https://github.com/ryansaballa/texostudio#readme",
+  "description": "",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
