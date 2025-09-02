@@ -9,12 +9,14 @@ public_folder: "/uploads"            # how those files are referenced on the sit
 publish_mode: editorial_workflow     # optional: review via PRs
 
 collections:
-  - name: "articles"
-    label: "Articles"
+  - name: "posts"
+    label: "Posts"
     folder: "article/posts"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "body", label: "Body", widget: "markdown" }
+      - { name: "layout", label: "Layout", widget: "hidden", default: "layouts/post.njk" }
+
