@@ -1,6 +1,8 @@
 module.exports = function(eleventyConfig) {
   // Copy CSS so it shows up in _site
-  eleventyConfig.addPassthroughCopy("styles.css");
+  eleventyConfig.addPassthroughCopy("css");
+  // Copy images to show up in _site
+  eleventyConfig.addPassthroughCopy("images");
 
   return {
     dir: {
@@ -10,5 +12,6 @@ module.exports = function(eleventyConfig) {
     },
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
+    dataTemplateEngine: "njk"
   };
 };
