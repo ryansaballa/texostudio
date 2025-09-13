@@ -1,8 +1,8 @@
 backend:
   name: github
   repo: ryansaballa/texostudio   # change this
-  branch: master                       # or your default branch
-  auth_scope: repo
+  branch: master                 # or your default branch
+  auth_scope: repo               # Tells GitHub to grant Decap CMS access to: read and write access repositories
 
 media_folder: "images"               # where files get saved in your repo
 public_folder: "/uploads"            # how those files are referenced on the site
