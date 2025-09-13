@@ -1,6 +1,5 @@
 ---
 title: Articles
-date: 2025-09-12T22:50:00.000-04:00
 layout: layouts/post.njk
 ---
 <h1>Latest Articles</h1>

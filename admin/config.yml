@@ -19,7 +19,6 @@ collections:
     fields:
       - { name: "title", label: "Title", widget: "string" }
       - { name: "slug", label: "Slug", widget: "string", hint: "URL-friendly name (e.g. my-first-post)" }
-      - { name: "date", label: "Date", widget: "datetime" }
       - { name: "body", label: "Body", widget: "markdown" }
       - { name: "layout", label: "Layout", widget: "hidden", default: "layouts/post.njk" }
       - { name: "permalink", label: "Permalink", widget: "hidden", default: "article/{{slug}}/" }
