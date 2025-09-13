@@ -273,7 +273,7 @@ footer {
             "a5 a6";
     }
     .featured-section {
-        min-height: 24em;
+        min-height: 25%;
     }
     footer {
         display: flex;
@@ -298,10 +298,18 @@ footer {
         grid-template-areas:
             "a1 a2 a3"
             "a4 a5 a6";
+        padding: 0px;
     }
     .featured-section {
         min-height: 30em;
     }
+    main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2.4em auto auto auto;
+    max-width: 1200px;
+}
 
 }
 
