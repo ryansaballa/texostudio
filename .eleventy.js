@@ -6,6 +6,11 @@ module.exports = function(eleventyConfig) {
   // Copy files in admin so it shows up in _site
   eleventyConfig.addPassthroughCopy("admin");
 
+  // Add collection for blog articles
+  eleventyConfig.addCollection("articles", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("article/*.md").sort((a, b) => b.date - a.date);
+  });
+
   return {
     dir: {
       input: ".",       // 👈  root content folder
