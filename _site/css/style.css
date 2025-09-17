@@ -385,6 +385,6 @@ footer {
 
 /* Styling Article Posts */ 
 
-.post {
+.post h2 {
     color:red;
 }
