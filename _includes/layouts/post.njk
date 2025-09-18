@@ -4,14 +4,11 @@
 <body>
     {% include "partials/header.njk" %}
   <main>
-    <article class="post">
+    <article class="article-post">
       <h2>{{ title }}</h2>
       {{ content | safe }}
     </article>
   </main>
-
-  <footer>
     {% include "partials/footer.njk" %}
-  </footer>
 </body>
 </html>

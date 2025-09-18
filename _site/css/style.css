@@ -5,6 +5,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
 }
 
 /* background */
@@ -14,6 +16,8 @@ html {
 
 body {
     font-family: 'Barlow', sans-serif;
+    height: 100vh;
+    width: 100vw;
 }
 
 /* typography */
@@ -76,7 +80,7 @@ ul li {
 
 
 
-/* grid templates layout */
+/* homepage grid templates layout */
 .site-header {
     grid-area: header;
 }
@@ -310,75 +314,12 @@ footer {
     margin: 2.4em auto auto auto;
     max-width: 1200px;
 }
-
 }
 
+/* Indidivual Article Entry Layout */ 
 
-/* Main Container */
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;  
-    padding: 0em 2em;
-
-}
-
-.entry-article-main-section,
-.personal-bio-copy {
-    max-width: 830px;
-}
-
-.entry-article-main-section h2,
-.entry-article-main-section h3,
-.personal-bio,
-.personal-bio-copy h2,
-.personal-bio-copy h3,
-.personal-bio-intro h2 {
-    text-decoration: none;
-    color: #090909;
-    margin: 0.5em 0em;
-}
-
-/* paragraph styling */
-.entry-article-main-section p,
-.personal-bio p {
-    line-height: 2em;
-}
-
-
-/* Article Entry Layout */ 
-
-.entry-article-date {
-    margin-bottom: 2em;
-}
-
-.entry-article-img {
- width: 100%;
- margin: 1.25em 0;
-}
-
-#read-articles { 
-    padding: 0;
-}
-
-/* Biography Section */ 
-
-.personal-bio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2em;
-
-}
-
-.personal-bio-intro {
-    max-width: 830px;
-}
-
-.personal-bio img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 2em 0;
+.article-post {
+    max-width: 1000px;
+    margin-top: 2.5em;
+    line-height: 1.6;
 }
