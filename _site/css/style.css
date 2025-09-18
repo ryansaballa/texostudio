@@ -322,4 +322,9 @@ footer {
     max-width: 1000px;
     margin-top: 2.5em;
     line-height: 1.6;
+    padding: 2em;
+}
+
+.article-post h2 {
+    margin-bottom: 1em;
 }

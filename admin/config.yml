@@ -5,7 +5,7 @@ backend:
   auth_scope: repo               # Tells GitHub to grant Decap CMS access to: read and write access repositories
 
 media_folder: "images"               # where files get saved in your repo
-public_folder: "/uploads"            # how those files are referenced on the site
+public_folder: "/images"            # how those files are referenced on the site
 
 publish_mode: editorial_workflow     # optional: review via PRs
 
@@ -20,6 +20,7 @@ collections:
     fields:
       - { name: "title", label: "Title", widget: "string" }
       - { name: "body", label: "Body", widget: "markdown" }
+      - { name: "image", label: "Image", widget: "image", required: false }
       - { name: "layout", label: "Layout", widget: "hidden", default: "layouts/post.njk" }
       - { name: "permalink", label: "Permalink", widget: "hidden", default: "article/{{slug}}/" }
 
