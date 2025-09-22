@@ -9,12 +9,20 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("articles", function (collectionApi) {
     return collectionApi.getFilteredByGlob("article/*.md").sort((a, b) => b.date - a.date);
   });
-  // Enable manual image wrapping on article images
-  eleventyConfig.addPairedShortcode("imageWrap", function(content){
-    return `<figure class="styled-image">
-            ${content}
-            </figure>`;
+  // Transform rendered images in html with image wrapping on article images
+  eleventyConfig.addTransform("wrapImages", function(content, outputPath){
+    // applies to only html files
+    if (outputPath && outputPath.endsWith(".html")){
+      // checks if html files live under /articles
+      if (outputPath.includes("/articles/")){
+        return content.replace(/img(.*?)\/?>/g, (match) => {
+          return `<figure class= styled-image>${match}</figure>`;
+        });
+      }
+    }
+    return content;
   });
+
   return {
     dir: {
       input: ".",       // 👈  root content folder
