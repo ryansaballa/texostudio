@@ -328,3 +328,23 @@ footer {
 .article-post h2 {
     margin-bottom: 1em;
 }
+
+/* Image Wrapper */
+.styled-image {
+    display: block;
+    margin: 1em auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.image {
+    max-width: 90%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.styled-image figcaption {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
