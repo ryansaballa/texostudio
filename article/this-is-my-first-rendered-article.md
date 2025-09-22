@@ -11,7 +11,7 @@ This is a second paragraph to see if the writing from Decap CMS gets rendered to
 
 I am realizing that every time i add or update an existing article, i need to republish it.
 
-![](/uploads/texo-icon.png)
+![Image](/images/front-end-img.jpg)
 
 It goes back to the draft status after saving with the update content, then i manually have to publish it again, after setting the status to Ready.
 
