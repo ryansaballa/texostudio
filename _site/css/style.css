@@ -320,6 +320,7 @@ footer {
 
 .article {
     display: flex;
+    justify-content: center;
 }
 
 .article-post {
