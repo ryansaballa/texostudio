@@ -21,6 +21,7 @@ module.exports = function(eleventyConfig) {
       `;
   });
 
+  // Return config
   return {
     dir: {
       input: ".",       // 👈  root content folder
