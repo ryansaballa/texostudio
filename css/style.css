@@ -318,8 +318,12 @@ footer {
 
 /* Indidivual Article Entry Layout */ 
 
+.article {
+    display: flex;
+}
+
 .article-post {
-    max-width: 1000px;
+    max-width: 90%;
     margin-top: 2.5em;
     line-height: 1.6;
     padding: 2em;
