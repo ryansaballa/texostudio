@@ -5,11 +5,21 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   // Copy files in admin so it shows up in _site
   eleventyConfig.addPassthroughCopy("admin");
+
+
   // Add collection for blog articles
   eleventyConfig.addCollection("articles", function (collectionApi) {
     return collectionApi.getFilteredByGlob("article/*.md").sort((a, b) => b.date - a.date);
   });
 
+  // Shortcode for styled image wrapper
+  eleventyConfig.addShortcode("ImageWrapper", function(src, alt){
+    return `
+      <div class="styled-image">
+      <img src="${src}" alt="${alt}" class="image" loading="lazy" />
+      </div>
+      `;
+  });
 
   return {
     dir: {
