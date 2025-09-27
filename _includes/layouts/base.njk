@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include "partials/head.njk" %}
+<body>
+    {% include "partials/header.njk" %}
+  <main>
+    <section class="article">
+      <article class="article-post">
+      <h2>{{ title }}</h2>
+      {{ content | safe }}
+      </article>
+    </section>
+  </main>
+    {% include "partials/footer.njk" %}
+    <!-- Javscript --> 
+    <script src="/js/main.js" type="module"></script>
+</body>
+</html>
