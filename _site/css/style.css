@@ -41,6 +41,7 @@ h2 {
     width: 100%;
     margin: 0 auto;
     padding: 1.25em 1.25em;
+    align-items: center;
     justify-content: space-between;
     background-color: #FAFAFA;
 }
@@ -60,7 +61,18 @@ h2 {
 
 nav {
     display: flex;
+    display: none;
+
+    
+}
+
+nav.show {
+    flex-direction: column;
     align-items: center;
+
+    position: absolute;
+    width: 100vw;
+    background: white;
 }
 
 nav a {
@@ -78,6 +90,47 @@ ul li {
     margin: 0 0.5em;
 }
 
+/* Hamburger Button */
+.menu-toggle {
+    background: none;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 999;
+}
+
+/* Hamburger Icon */
+.hamburger {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-toggle .hamburger,
+.menu-toggle .hamburger::before,
+.menu-toggle .hamburger::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 25px;
+    background-color: black;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.menu-toggle .hamburger::before {
+    position: absolute;
+    top: -8px;
+}
+
+.menu-toggle .hamburger::after {
+    position: absolute;
+    top: 8px;
+}
 
 
 /* homepage grid templates layout */
@@ -265,6 +318,15 @@ footer {
  /* homepage - media query tablet layout */
 
 @media(min-width: 768px) {
+    /* hamburger menu */
+    .menu-toggle {
+        display: none;
+    }
+    nav {
+        display: inline;
+    }
+    
+
     /* home page */
     .container {
         margin-top: 2em;
@@ -315,6 +377,7 @@ footer {
     max-width: 1200px;
 }
 }
+
 
 /* Indidivual Article Entry Layout */ 
 
