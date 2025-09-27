@@ -62,8 +62,6 @@ h2 {
 nav {
     display: flex;
     display: none;
-
-    
 }
 
 nav.show {
