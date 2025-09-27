@@ -1,6 +1,8 @@
 module.exports = function(eleventyConfig) {
   // Copy CSS so it shows up in _site
   eleventyConfig.addPassthroughCopy("css");
+  // Copy JS so it shows up in _site
+  eleventyConfig.addPassthroughCopy("js")
   // Copy images to show up in _site
   eleventyConfig.addPassthroughCopy("images");
   // Copy files in admin so it shows up in _site
