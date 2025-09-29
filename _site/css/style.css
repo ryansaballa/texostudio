@@ -61,25 +61,24 @@ h2 {
 
 nav {
     display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 75px;
+    position: fixed;
+    top: 60px;
     left: 0;
     width: 100vw;
     height: 100vh;
     background: #FAFAFA;
     padding: 1rem 0;
-    z-index: 10;
+    
 }
 
 /* enables nav when menu is toggled */
-nav-menu.show {
+nav.open {
     display: flex;
 }
 
 
 nav a {
-    display: block;
+    display: flex;
     color: #090909;
     text-decoration: none;
     font-size: 1.125rem;
@@ -107,7 +106,7 @@ ul li {
     display: inline-block;
     cursor: pointer;
     padding: 10px;
-    z-index: 999;
+    z-index: 1100;
 }
 
 /* Hamburger Icon */
@@ -142,6 +141,47 @@ ul li {
     top: 8px;
 }
 
+/* Exit Icon for menu */ 
+
+.menu-toggle .close-icon ::before,
+.menu-toggle .close-icon ::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    transition: all 0.3s ease;
+    transform-origin: center;
+}
+
+/* diagonal lines of the 'x' button */
+.menu-toggle .close-icon::before {
+  transform: rotate(45deg) translateY(-50%);
+}
+
+.menu-toggle .close-icon::after {
+  transform: rotate(-45deg) translateY(-50%);
+}
+
+/* toggle visibility */ 
+
+.menu-toggle .hamburger {
+  display: block;
+}
+
+.menu-toggle.active .hamburger {
+  display: none;
+}
+
+.menu-toggle .close-icon {
+  display: none;
+}
+
+.menu-toggle.active .close-icon {
+  display: block;
+}
 
 /* homepage grid templates layout */
 .site-header {
@@ -332,10 +372,14 @@ footer {
     .menu-toggle {
         display: none;
     }
+    nav {
+        display: flex;
+        width: auto;
+        height: auto;
+        position: static;
+    }
     nav ul {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
+        flex-direction: row;
     }
     
 
@@ -385,7 +429,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 2.4em auto auto auto;
+    margin: auto;
     max-width: 1200px;
 }
 }
