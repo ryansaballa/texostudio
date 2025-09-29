@@ -38,12 +38,15 @@ h2 {
 .site-header {
     display: flex;
     flex-direction: row;
+    position: fixed;
+    top: 0;
     width: 100%;
-    margin: 0 auto;
+    margin: auto;
     padding: 1.25em 1.25em;
     align-items: center;
     justify-content: space-between;
     background-color: #FAFAFA;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -62,13 +65,11 @@ h2 {
 nav {
     display: none;
     position: fixed;
-    top: 60px;
+    top: 70px;
     left: 0;
     width: 100vw;
     height: 100vh;
     background: #FAFAFA;
-    padding: 1rem 0;
-    
 }
 
 /* enables nav when menu is toggled */
@@ -156,7 +157,7 @@ ul li {
   display: block;
   height: 3px;
   width: 25px;
-  background-color: black;
+  background-color: #BF1721;
   transition: all 0.3s ease;
   position: absolute;
   top: 50%;
@@ -166,11 +167,13 @@ ul li {
 
 /* diagonal lines of the 'x' button */
 .menu-toggle .close-icon::before {
-  transform: rotate(42.5deg) translateY(-42.5%);
+  transform: rotate(90deg) translateY(-20%);
+
 }
 
 .menu-toggle .close-icon::after {
-  transform: rotate(-42.5deg) translateY(-42.5%);
+  transform: rotate(-180deg) translateY(-180%);
+  top: -8px;
 }
 
 /* toggle visibility */ 
@@ -260,6 +263,7 @@ body{
     background-size: cover;
     min-height: 18em; 
     padding: 2em;
+    margin-top: 7.8em;
 }
 
 .featured-section .article-header,
@@ -391,9 +395,7 @@ footer {
     }
 
     /* home page */
-    .container {
-        margin-top: 2em;
-    }
+    
     .main-section {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
@@ -401,18 +403,10 @@ footer {
             "a3 a4"
             "a5 a6";
     }
-    .featured-section {
-        min-height: 25%;
-    }
+    
     footer {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-    }
-    .personal-bio-intro {
-        display: flex;
-        gap: 2em;
-        justify-content: center;
         align-items: center;
     }
 
