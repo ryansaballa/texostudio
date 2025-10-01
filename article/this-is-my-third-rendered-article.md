@@ -1,6 +1,6 @@
 ---
-title: This is my first rendered article
-slug: my-first-post
+title: This is my third rendered article
+slug: my-third-post
 layout: layouts/post.njk
 permalink: article/{{slug}}/
 tags: articles
@@ -10,6 +10,7 @@ images:
     - src: "/images/article-img.jpg"
       alt: "article image"
 ---
+
 This is a milestone for sticking through and building a working web page application that renders out markdown files into content that lives on a website.
 
 This is a second paragraph to see if the writing from Decap CMS gets rendered to the server.

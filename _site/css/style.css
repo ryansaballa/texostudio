@@ -238,6 +238,8 @@ body{
     margin-bottom: 1em;
 }
 
+/* layout for homepage */
+
 .main-section {
     grid-area: main;
     display: grid;
@@ -289,6 +291,26 @@ body{
     gap: 1em;
 }
 
+/* styling article list layout */
+
+
+
+.article-list {
+    padding: 2em;
+}
+
+.article-list h1 {
+    margin-bottom: 1em;
+}
+
+.article-list li {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
 
 /* styling post */ 
 
@@ -442,6 +464,7 @@ footer {
 .article {
     display: flex;
     justify-content: center;
+    margin-top: 4em;
 }
 
 .article-post {

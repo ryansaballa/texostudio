@@ -1,6 +1,6 @@
 ---
-title: This is my first rendered article
-slug: my-first-post
+title: This is my second rendered article
+slug: my-second-post
 layout: layouts/post.njk
 permalink: article/{{slug}}/
 tags: articles
