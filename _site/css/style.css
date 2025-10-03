@@ -41,6 +41,7 @@ h2 {
     position: fixed;
     top: 0;
     width: 100%;
+    justify-self: center;
     margin: auto;
     padding: 1.25em 1.25em;
     align-items: center;
@@ -48,6 +49,15 @@ h2 {
     background-color: #FAFAFA;
     box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1);
 }
+
+.site-header-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+    }
 
 
 .logo{
@@ -228,14 +238,15 @@ ul li {
 
 body{
     display: grid;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     grid-template-areas: 
-        "header"
+        " header "
         "featured-section"
         "main-section"
         "footer";
-    margin-top: 0;
-    margin-bottom: 1em;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
 /* layout for homepage */
@@ -383,6 +394,52 @@ article img {
 }
 
 
+/* about */ 
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.about-profile {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    border: 2px solid black;
+    padding: 4em;
+    
+}
+
+.about-profile h1 {
+    margin-bottom: 2em;
+}
+
+.about-profile p {
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+.about-bio {
+    display: flex;
+    width: 100%;
+}
+
+.about-text {
+    flex: 1;
+    border: 2px solid black;
+    line-height: 2em;
+    margin-bottom: 1em;
+}
+
+.about-text h2 {
+    margin-bottom: 2em;
+}
+
+.about-img {
+    flex: 1;
+}
+
 /* footer */ 
 
 footer {
@@ -414,6 +471,7 @@ footer {
     
     main {
         margin-bottom: auto;
+        max-width: 1200px;
     }
 
     /* home page */
@@ -454,7 +512,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    max-width: 1200px;
+    
 }
 }
 
