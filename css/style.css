@@ -59,7 +59,6 @@ h2 {
         margin: auto;
     }
 
-
 .logo{
     width: 2.5em;
     height: 2.5em;
@@ -400,44 +399,50 @@ article img {
     display: flex;
     flex-direction: column;
     gap: 2em;
+    padding: 4em;
+    line-height: 2em;
 }
 
-.about-profile {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-    border: 2px solid black;
-    padding: 4em;
+.reverse {
+    flex-direction: row-reverse;
     
 }
 
-.about-profile h1 {
+.about-profile {
+    padding: 2em;
+    margin-top: 4em;
     margin-bottom: 2em;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .about-profile p {
     font-size: 1em;
-    line-height: 1.6em;
 }
 
-.about-bio {
-    display: flex;
-    width: 100%;
-}
-
-.about-text {
-    flex: 1;
-    border: 2px solid black;
-    line-height: 2em;
-    margin-bottom: 1em;
+.about-profile h1,
+.about-text h2,
+.about-text p {
+    margin-bottom: 0.5em;
 }
 
 .about-text h2 {
-    margin-bottom: 2em;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
 }
 
 .about-img {
-    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.about-img img {
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: contain;
 }
 
 /* footer */ 
@@ -449,6 +454,12 @@ footer {
     background-color: #202020;
     padding: 2.25em 2.25em;
     gap: 2.25em;
+}
+
+.footer-inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
 }
 
 
@@ -484,7 +495,7 @@ footer {
             "a5 a6";
     }
     
-    footer {
+    .footer-inner {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -512,8 +523,21 @@ footer {
     flex-direction: column;
     justify-content: center;
     margin: auto;
+    }
     
-}
+    /* about page */
+    .about-bio {
+        display: flex;
+        gap: 2em;
+        margin-bottom: 2em;
+    }
+    .about-text {
+    line-height: 2em;
+    margin-bottom: 1em;
+    flex: 1 75%;
+    }
+    
+
 }
 
 
