@@ -248,6 +248,12 @@ body{
     box-sizing: border-box;
 }
 
+main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 2em;
+}
+
 /* layout for homepage */
 
 .main-section {
@@ -262,7 +268,11 @@ body{
         "a5"
         "a6";
     column-gap: 2em;
-    padding: 0px 2em;
+}
+
+/* layout for hero */
+.hero {
+    margin-top: 7em;
 }
 
 /* featured article layout */
@@ -522,7 +532,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: auto;
     }
     
     /* about page */
