@@ -1,5 +1,5 @@
 ---
-title: A Fresh Look for Future Leaders in Education
+title: "A Fresh Look for Future Leaders in Education"
 tags:
   - projects
 layout: layouts/projects.njk
