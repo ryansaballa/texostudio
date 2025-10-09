@@ -1,35 +1,7 @@
 <!DOCTYPE html>
-    <head>
-    <title>Texo Studio</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-</head>
+    {% include "partials/head.njk" %}
     <body>
-        <header class="site-header">
-    <div class="site-header-inner">
-    <!-- Logo -->
-     <div class="logo-group">
-        <img class="logo" src="/images/texo-icon.png">
-         <h1>Texo Studio</h1>
-    </div>
-    <!-- Hamburger menu --> 
-    <button class="menu-toggle" aria-label="Toggle Menu" aria-expanded="false">
-        <span class="hamburger"></span>
-        <span class="close-icon"></span>
-    </button>
-
-
-    <!-- Site Navigation -->
-     <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/articles">Articles</a></li>
-            <li><a href="/projects">Projects</a></li>
-        </ul>
-    </nav>
-    </div>
-</header>
+        {% include "partials/header.njk" %}
         <main>
             <section class="main-section projects">
                 <article class="post article-1">
@@ -121,17 +93,7 @@
                 <p><a href="#">View More</a></p>
             </section>
         </main>
-         <footer>
-    <section class="footer-inner">
-            <div>
-                <p>Web Developer Journal</p>
-                <p>Made in Toronto with <span style="color: #e25555;">&#9829;</span></p>
-            </div>
-            <div>
-                <p>Copyright ©2025</p>
-            </div>
-    </section>
-</footer>
-        <script src="/js/main.js" type="module"></script>
+        {% include "partials/footer.njk" %}
+        {% include "partials/script.njk" %}
     </body>
 </html>
