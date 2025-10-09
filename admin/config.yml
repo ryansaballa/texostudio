@@ -23,4 +23,18 @@ collections:
       - { name: "image", label: "Image", widget: "image", required: false }
       - { name: "layout", label: "Layout", widget: "hidden", default: "layouts/post.njk" }
       - { name: "permalink", label: "Permalink", widget: "hidden", default: "article/{{slug}}/" }
-
+  - name: "projects"
+    label: "Projects"
+    folder: "projects"
+    create: true
+    format: "frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["projects"] }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { name: "layout", label: "Layout", widget: "hidden", default: "layouts/project.njk" }
+      - { name: "permalink", label: "Permalink", widget: "hidden", default: "projects/{{slug}}/" }

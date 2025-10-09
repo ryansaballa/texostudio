@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include "partials/head.njk" %}
+<body>
+    {% include "partials/header.njk" %}
+  <main>
+    {% include "partials/hero.njk" %}  
+    <section class="project">
+      <article class="project-post">
+      <h2>{{ title }}</h2>
+      {{ content | safe }}
+      </article>
+    </section>
+  </main>
+    {% include "partials/footer.njk" %}
+    {% include "partials/script.njk" %}
+</body>
+</html>
