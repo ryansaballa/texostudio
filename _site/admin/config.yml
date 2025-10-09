@@ -32,7 +32,6 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
       - { label: "Tags", name: "tags", widget: "list", default: ["projects"] }
       - { label: "Body", name: "body", widget: "markdown" }
       - { name: "layout", label: "Layout", widget: "hidden", default: "layouts/projects.njk" }
