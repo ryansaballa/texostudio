@@ -10,7 +10,7 @@ description: >-
   This website design project was completed in 4 months in collaboration with Tyndale University’s web manager and stakeholders including the Admissions and Bachelor of Education department.
 tags:
   - projects
-layout: layouts/project.njk
+layout: layouts/projects.njk
 permalink: projects/{{slug}}/
 ---
 Test
