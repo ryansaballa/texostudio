@@ -13,4 +13,15 @@ tags:
 layout: layouts/projects.njk
 permalink: projects/{{slug}}/
 ---
-Test
+## Overview
+### Organization
+### Purpose of the Redesign and Goal
+
+
+## Research and Strategy
+### Key Insights
+### Design Strategy and Development
+
+## Outcome
+### Results
+### Reflection
