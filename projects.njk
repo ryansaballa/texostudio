@@ -8,6 +8,37 @@ permalink: /projects/
     <body>
         {% include "partials/header.njk" %}
         <main>
+            {% include "partials/hero.njk" %}  
+            <section class="article-list">
+                    <ul>
+                        {% for projects in collections.prjects %}
+                        <li><a href="{{ projects.url }}">{{ projects.data.title }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                
+            </section>
+                 
+            
+            <section class="section-one">
+                <p><a href="#">View More</a></p>
+            </section>
+        </main>
+        {% include "partials/footer.njk" %}
+        {% include "partials/script.njk" %}
+    </body>
+</html>
+
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+    {% include "partials/head.njk" %}
+    <body>
+        {% include "partials/header.njk" %}
+        <main>
         {% include "partials/hero.njk" %} 
             <section class="main-section projects">
                 <article class="post article-1">
@@ -100,3 +131,4 @@ permalink: /projects/
         {% include "partials/script.njk" %}
     </body>
 </html>
+-->
