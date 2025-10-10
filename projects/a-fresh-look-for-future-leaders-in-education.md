@@ -17,10 +17,10 @@ Tyndale University is a Christian university in Toronto offering a wide range of
 
 This website design project was completed in 4 months in collaboration with Tyndale University’s web manager and stakeholders including the Admissions and Bachelor of Education department.
 
-### Organization
+## Organization
 Tyndale University
 
-### Purpose of the Redesign and Goal
+## Purpose of the Redesign and Goal
 The Bachelor of Education is a unique program among all other Bachelor programs at Tyndale University. There was a need for a website redesign for all sections with a main priority to lead with a story on the main home page.
 
 ## Research and Strategy
