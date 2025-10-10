@@ -1,20 +1,26 @@
 ---
-title: "A Fresh Look for Future Leaders in Education"
-slug: a-fresh-look-for-future-leaders-in-education
+title: Tyndale University
+description: >-
+  Tyndale University is a Christian university in Toronto offering a wide range
+  of programs at the undergraduate, seminary & graduate levels. Tyndale's
+  Bachelor of Education (BEd) program is a unique program that accelerates the
+  process to become a certified teacher in Ontario over 16 consecutive months.
+
+
+  This website design project was completed in 4 months in collaboration with Tyndale University’s web manager and stakeholders including the Admissions and Bachelor of Education department.
 tags:
   - projects
 layout: layouts/projects.njk
 permalink: projects/{{slug}}/
 ---
-## Overview
 Tyndale University is a Christian university in Toronto offering a wide range of programs at the undergraduate, seminary & graduate levels. Tyndale's Bachelor of Education (BEd) program is a unique program that accelerates the process to become a certified teacher in Ontario over 16 consecutive months.
 
 This website design project was completed in 4 months in collaboration with Tyndale University’s web manager and stakeholders including the Admissions and Bachelor of Education department.
 
-### Organization
+## Organization
 Tyndale University
 
-### Purpose of the Redesign and Goal
+## Purpose of the Redesign and Goal
 The Bachelor of Education is a unique program among all other Bachelor programs at Tyndale University. There was a need for a website redesign for all sections with a main priority to lead with a story on the main home page.
 
 ## Research and Strategy
