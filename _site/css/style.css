@@ -33,6 +33,11 @@ h2 {
     display: inline-block;
 }
 
+p {
+    font-size: 1.15em;
+    line-height: 1.6em;
+}
+
 /* header nav */ 
 
 .site-header {
@@ -91,7 +96,7 @@ nav a {
     display: flex;
     color: #090909;
     text-decoration: none;
-    font-size: 1.125rem;
+    font-size: 1.15rem;
 }
 
 nav ul {
@@ -457,14 +462,22 @@ article img {
 
 /* projects */
 .projects {
-    margin-bottom: 4em;
+    max-width: 75%;
+    margin: 7em auto 4em auto;
+    
 }
 
-.projects h1,
-.projects h2, 
-.projects h3 {
+.project-post h1
+ {
     margin-bottom: 2em;
 }
+
+.project-post h3,
+.project-post h2, 
+.project-post p {
+    margin-bottom: 1.25em;
+}
+
 
 
 /* footer */ 
@@ -597,7 +610,7 @@ footer {
 }
 
 .article-post {
-    max-width: 90%;
+    max-width: 75%;
     margin-top: 2.5em;
     line-height: 1.6;
     padding: 2em;

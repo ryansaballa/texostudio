@@ -5,6 +5,25 @@ tags:
 layout: layouts/projects.njk
 slug: tyndale-university
 permalink: /projects/{{ slug }}/
+images:
+    - src: "/images/bed/bed-tyndle-00.png"
+      alt: ""
+    - src: "/images/bed/bed-tyndle-01.png"
+      alt: ""
+    - src: "/images/bed/bed-tyndle-02.png"
+      alt: ""
+    - src: "/images/bed/bed-tyndle-03.png"
+      alt: ""
+    - src: "/images/bed/bed-tyndle-04.png"
+      alt: ""
+    - src: "/images/bed/bed-tyndle-05.png"
+      alt: ""
+    - src: "/images/bed/bed-tyndle-06.png"
+      alt: ""
+    - src: "/images/bed/bed-tyndle-07.png"
+      alt: ""
+    - src: "/images/bed/bed-tyndle-08.png"
+      alt: ""
 ---
 Tyndale University is a Christian university in Toronto offering a wide range of programs at the undergraduate, seminary & graduate levels. Tyndale's Bachelor of Education (BEd) program is a unique program that accelerates the process to become a certified teacher in Ontario over 16 consecutive months.
 
@@ -16,6 +35,8 @@ Tyndale University
 ## Purpose of the Redesign and Goal
 The Bachelor of Education is a unique program among all other Bachelor programs at Tyndale University. There was a need for a website redesign for all sections with a main priority to lead with a story on the main home page.
 
+test{% ImageWrapper images[0].src, images[0].alt %}
+
 ## Research and Strategy
 The first step was to audit the web section including the home page and sub-links such as the different program tracks, information about tuition, application information and information sessions. This includes creating a plan for new URL paths and redirects.
 
@@ -25,21 +46,21 @@ Documenting all affected web pages led to planning out the structure of the new 
 
 Determining the content structure of the site informed the overall information (IA) structure including all relevant sub pages. The image below is a screen shot of the same IA split into two parts.  
 
-### Challenges
+## Challenges
 
-**French Information Kept in spite of Google Analytics Data**
+### French Information Kept in spite of Google Analytics Data
 
 **Challenge:** There are three program tracks in the BEd program – Primary Junior, Primary Junior French as a Second Language (FSL) and Junior/Intermediate. The challenging part of the design was to decide whether to keep a French version of the Primary Junior FSL web page. 
 
 **Solution:** Google Analytics emphasized a low-view count and high bounce rate, but the web pages (and relevant sub-pages) were kept and re-organized after consulting with the Department of Education.
 
-**Turning Static Content into Blocks**
+### Turning Static Content into Blocks
 
 **Challenge:** Updating content about the Application period for the program was done manually by changing the date in several different sub-pages. Duplicate information created a challenge to maintain information that was true in several different pages. 
 
 **Solution:** By first identifying duplicate content through the Content Audit, I was able to communicate with the Web Manager to create *Blocks* on Drupal. Creating a Block allows me to update content once in the back-end, enabling me to plot out the block in multiple pages without manually updating each page.
 
-**Faculty** 
+### Faculty
 
 **Challenge:** The Bachelor of Education had multiple faculty members and education advisors (who are not hired as teaching faculty). The current site had two categories that separated members of the program. The challenge was to decide how to unite both categories that would beneficial for future maintenance of profile set-up and marketing the program holistically.
 
