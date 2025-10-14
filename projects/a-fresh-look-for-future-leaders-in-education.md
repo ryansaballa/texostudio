@@ -6,24 +6,24 @@ layout: layouts/projects.njk
 slug: tyndale-university
 permalink: /projects/{{ slug }}/
 images:
-    - src: "/images/bed/bed-tyndle-00.png"
-      alt: ""
-    - src: "/images/bed/bed-tyndle-01.png"
-      alt: ""
-    - src: "/images/bed/bed-tyndle-02.png"
-      alt: ""
-    - src: "/images/bed/bed-tyndle-03.png"
-      alt: ""
-    - src: "/images/bed/bed-tyndle-04.png"
-      alt: ""
-    - src: "/images/bed/bed-tyndle-05.png"
-      alt: ""
-    - src: "/images/bed/bed-tyndle-06.png"
-      alt: ""
-    - src: "/images/bed/bed-tyndle-07.png"
-      alt: ""
-    - src: "/images/bed/bed-tyndle-08.png"
-      alt: ""
+  - src: /images/bed/bed-tyndle-00.png
+    alt: ""
+  - src: /images/bed/bed-tyndle-01.png
+    alt: ""
+  - src: /images/bed/bed-tyndle-02.png
+    alt: ""
+  - src: /images/bed/bed-tyndle-03.png
+    alt: ""
+  - src: /images/bed/bed-tyndle-04.png
+    alt: ""
+  - src: /images/bed/bed-tyndle-05.png
+    alt: ""
+  - src: /images/bed/bed-tyndle-06.png
+    alt: ""
+  - src: /images/bed/bed-tyndle-07.png
+    alt: ""
+  - src: /images/bed/bed-tyndle-08.png
+    alt: ""
 ---
 Tyndale University is a Christian university in Toronto offering a wide range of programs at the undergraduate, seminary & graduate levels. Tyndale's Bachelor of Education (BEd) program is a unique program that accelerates the process to become a certified teacher in Ontario over 16 consecutive months.
 
@@ -72,10 +72,10 @@ The website redesign included updated the micro-copy and content layout patterns
 ### Lead with Prospective Students in Mind
 
 **What was designed:**
-+ Hero Banner
+- Hero Banner
   - Updated banner that gives a vibrant display
-  - complementary website copy highlighting the departments main slogan – **your door to a career in education**.
-+ Structured Story
+  - complementary website copy highlighting the departments main slogan – your door to a career in education.
+- Structured Story
   - The decision to revamp the first section of the web page was to give prospective students a different type of content by leading the story of ‘why’ (important reasons to study and Tyndale) and not ‘what’ (generic statements for admission). 
   - In a desktop view, it was important to give students the expectations of commitment with Format, Schedule and Practicum information. The level of importance is the same as ‘Why Pursue Teaching at Tyndale’.
 
