@@ -7,7 +7,7 @@ slug: tyndale-university
 permalink: /projects/{{ slug }}/
 images:
   - src: "/images/bed-tyndale-00.png"
-    alt: "testing agains"
+    alt: "image"
   - src: "/images/bed-tyndale-01.png"
     alt: ""
   - src: "/images/bed-tyndale-02.png"
