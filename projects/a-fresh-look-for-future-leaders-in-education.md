@@ -1,70 +1,75 @@
 ---
-title: Tyndale University
+title: A Fresh Look for Future Leaders in Education
 tags:
   - projects
 layout: layouts/projects.njk
 slug: tyndale-university
 permalink: /projects/{{ slug }}/
 images:
-    - src: "/images/bed/bed-tyndle-00.png"
-      alt: ""
-    - src: "/images/bed/bed-tyndle-01.png"
-      alt: ""
-    - src: "/images/bed/bed-tyndle-02.png"
-      alt: ""
-    - src: "/images/bed/bed-tyndle-03.png"
-      alt: ""
-    - src: "/images/bed/bed-tyndle-04.png"
-      alt: ""
-    - src: "/images/bed/bed-tyndle-05.png"
-      alt: ""
-    - src: "/images/bed/bed-tyndle-06.png"
-      alt: ""
-    - src: "/images/bed/bed-tyndle-07.png"
-      alt: ""
-    - src: "/images/bed/bed-tyndle-08.png"
-      alt: ""
+  - src: "/images/bed-tyndale-00.png"
+    alt: "testing agains"
+  - src: "/images/bed-tyndale-01.png"
+    alt: ""
+  - src: "/images/bed-tyndale-02.png"
+    alt: ""
+  - src: "/images/bed-tyndale-034.png"
+    alt: ""
+  - src: "/images/bed-tyndale-04.png"
+    alt: ""
+  - src: "/images/bed-tyndale-05.png"
+    alt: ""
+  - src: "/images/bed-tyndale-06.png"
+    alt: ""
+  - src: "/images/bed-tyndale-07.png"
+    alt: ""
+  - src: "/images/bed-tyndale-08.png"
+    alt: ""
 ---
-Tyndale University is a Christian university in Toronto offering a wide range of programs at the undergraduate, seminary & graduate levels. Tyndale's Bachelor of Education (BEd) program is a unique program that accelerates the process to become a certified teacher in Ontario over 16 consecutive months.
 
 This website design project was completed in 4 months in collaboration with Tyndale University’s web manager and stakeholders including the Admissions and Bachelor of Education department.
 
 ## Organization
 Tyndale University
 
+Tyndale University is a Christian university in Toronto offering a wide range of programs at the undergraduate, seminary & graduate levels. Tyndale's Bachelor of Education (BEd) program is a unique program that accelerates the process to become a certified teacher in Ontario over 16 consecutive months.
+
 ## Purpose of the Redesign and Goal
 The Bachelor of Education is a unique program among all other Bachelor programs at Tyndale University. There was a need for a website redesign for all sections with a main priority to lead with a story on the main home page.
 
-test{% ImageWrapper images[0].src, images[0].alt %}
+{% ImageWrapper images[0].src, images[0].alt %}
 
 ## Research and Strategy
+### Content Audit
 The first step was to audit the web section including the home page and sub-links such as the different program tracks, information about tuition, application information and information sessions. This includes creating a plan for new URL paths and redirects.
+
+{% ImageWrapper images[1].src, images[1].alt %}
 
 Using Drupal as a Content Management System, it was important to organize the different Content Types, Views and Blocks that will be used to communicate with the web developer and web manager.
 
 Documenting all affected web pages led to planning out the structure of the new section. The diagram below is a brainstorm exercise that inform myself and the web manager to help categorize information as a stand-alone pages, a sub-section, or a page with content views and/or blocks. 
 
+{% ImageWrapper images[2].src, images[2].alt %}
+
 Determining the content structure of the site informed the overall information (IA) structure including all relevant sub pages. The image below is a screen shot of the same IA split into two parts.  
+
+{% ImageWrapper images[3].src, images[3].alt %}
 
 ## Challenges
 
 ### French Information Kept in spite of Google Analytics Data
 
-**Challenge:** There are three program tracks in the BEd program – Primary Junior, Primary Junior French as a Second Language (FSL) and Junior/Intermediate. The challenging part of the design was to decide whether to keep a French version of the Primary Junior FSL web page. 
-
-**Solution:** Google Analytics emphasized a low-view count and high bounce rate, but the web pages (and relevant sub-pages) were kept and re-organized after consulting with the Department of Education.
+- **Challenge:** There are three program tracks in the BEd program – Primary Junior, Primary Junior French as a Second Language (FSL) and Junior/Intermediate. The challenging part of the design was to decide whether to keep a French version of the Primary Junior FSL web page. 
+- **Solution:** Google Analytics emphasized a low-view count and high bounce rate, but the web pages (and relevant sub-pages) were kept and re-organized after consulting with the Department of Education.
 
 ### Turning Static Content into Blocks
 
-**Challenge:** Updating content about the Application period for the program was done manually by changing the date in several different sub-pages. Duplicate information created a challenge to maintain information that was true in several different pages. 
-
-**Solution:** By first identifying duplicate content through the Content Audit, I was able to communicate with the Web Manager to create *Blocks* on Drupal. Creating a Block allows me to update content once in the back-end, enabling me to plot out the block in multiple pages without manually updating each page.
+- **Challenge:** Updating content about the Application period for the program was done manually by changing the date in several different sub-pages. Duplicate information created a challenge to maintain information that was true in several different pages. 
+- **Solution:** By first identifying duplicate content through the Content Audit, I was able to communicate with the Web Manager to create *Blocks* on Drupal. Creating a Block allows me to update content once in the back-end, enabling me to plot out the block in multiple pages without manually updating each page.
 
 ### Faculty
 
-**Challenge:** The Bachelor of Education had multiple faculty members and education advisors (who are not hired as teaching faculty). The current site had two categories that separated members of the program. The challenge was to decide how to unite both categories that would beneficial for future maintenance of profile set-up and marketing the program holistically.
-
-**Solution:** Communicating with the Web Manager and the Director of the Department, it was feasible to create a new category that informed the decision to build a new content type to unite all members. By creating a new template for each member, a new category was created entitled ‘BEd Team’.
+- **Challenge:** The Bachelor of Education had multiple faculty members and education advisors (who are not hired as teaching faculty). The current site had two categories that separated members of the program. The challenge was to decide how to unite both categories that would beneficial for future maintenance of profile set-up and marketing the program holistically.
+- **Solution:** Communicating with the Web Manager and the Director of the Department, it was feasible to create a new category that informed the decision to build a new content type to unite all members. By creating a new template for each member, a new category was created entitled ‘BEd Team’.
 
 ## Design Strategy and Development
 The website redesign included updated the micro-copy and content layout patterns from a comparison study of other university websites. New templates and content blocks were created that enabled a better experience for website maintenance (as administrator) and for content readability (as a prospective student online). 
@@ -72,12 +77,17 @@ The website redesign included updated the micro-copy and content layout patterns
 ### Lead with Prospective Students in Mind
 
 **What was designed:**
+
 + Hero Banner
   - Updated banner that gives a vibrant display
   - complementary website copy highlighting the departments main slogan – **your door to a career in education**.
+
 + Structured Story
   - The decision to revamp the first section of the web page was to give prospective students a different type of content by leading the story of ‘why’ (important reasons to study and Tyndale) and not ‘what’ (generic statements for admission). 
   - In a desktop view, it was important to give students the expectations of commitment with Format, Schedule and Practicum information. The level of importance is the same as ‘Why Pursue Teaching at Tyndale’.
+<!-- End list -->
+
+{% ImageWrapper images[5].src, images[5].alt %}
 
 ### Organize Content for Readability 
 
@@ -88,6 +98,8 @@ The website redesign included updated the micro-copy and content layout patterns
   - including in-house images in each content card, gives each program track their unique style that aligns with the Tyndale University brand identity.
 + Content Block
   - Static content about Application information was turned into a block. Given information about Application would change often in different sections of the site – including a content block on the main web page was designed for better website maintenance.
+
+{% ImageWrapper images[6].src, images[6].alt %}
 
 ### Keeping it Simple with Grid
 **What was designed:**

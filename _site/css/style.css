@@ -23,21 +23,41 @@ body {
 /* typography */
 
 h1 {
-    font-size: 1.75em;
+    font-size: 1.75rem;
     margin: 0;
     
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     display: inline-block;
 }
 
+h3 {
+    font-size: 1.25rem;
+}
+
 p {
-    font-size: 1.15em;
+    font-size: 1.15rem;
     line-height: 1.6em;
 }
 
+li {
+    font-size: 1.15rem;
+    line-height: 1.6em;
+}
+
+ul {
+  list-style-type: disc !important;
+  margin-left: 1.5rem;
+}
+ul ul {
+  list-style-type: circle;
+}
+
+li {
+    margin: 1em 0;
+}
 /* header nav */ 
 
 .site-header {
@@ -46,13 +66,14 @@ p {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 80px;
     justify-self: center;
     margin: auto;
-    padding: 1.25em 1.25em;
     align-items: center;
     justify-content: space-between;
     background-color: #FAFAFA;
     box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
 }
 
 .site-header-inner {
@@ -61,6 +82,7 @@ p {
         align-items: center;
         max-width: 1200px;
         width: 100%;
+        padding: 0 1.25em;
         margin: auto;
     }
 
@@ -96,7 +118,7 @@ nav a {
     display: flex;
     color: #090909;
     text-decoration: none;
-    font-size: 1.15rem;
+    font-size: 1rem;
 }
 
 nav ul {
@@ -109,7 +131,7 @@ nav ul {
     text-align: left;
 }
 
-ul li {
+nav ul li {
     display: inline;
     margin: 0 0.5em;
 }
@@ -418,6 +440,10 @@ article img {
     line-height: 2em;
 }
 
+.about-bio {
+    margin: 2em 0em;
+}
+
 .reverse {
     flex-direction: row-reverse;
     
@@ -475,7 +501,7 @@ article img {
 .project-post h3,
 .project-post h2, 
 .project-post p {
-    margin-bottom: 1.25em;
+    margin: 1em 0em;
 }
 
 
@@ -575,7 +601,6 @@ footer {
     .about-bio {
         display: flex;
         gap: 2em;
-        margin-bottom: 2em;
     }
     .about-text {
     line-height: 2em;
@@ -629,10 +654,10 @@ footer {
 }
 
 .image {
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 2em auto;
+    margin: 3em auto;
 }
 
 .styled-image figcaption {
