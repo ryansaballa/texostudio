@@ -76,16 +76,6 @@ The website redesign included updated the micro-copy and content layout patterns
 
 ### Lead with Prospective Students in Mind
 
-**What was designed:**
-<<<<<<< HEAD
-
-+ Hero Banner
-  - Updated banner that gives a vibrant display
-  - complementary website copy highlighting the departments main slogan – **your door to a career in education**.
-
-
-{% ImageWrapper images[5].src, images[5].alt %}
-
 ### Organize Content for Readability 
 
 **What was designed:**
