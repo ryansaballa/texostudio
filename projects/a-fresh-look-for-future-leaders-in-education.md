@@ -83,16 +83,6 @@ The website redesign included updated the micro-copy and content layout patterns
   - Updated banner that gives a vibrant display
   - complementary website copy highlighting the departments main slogan – **your door to a career in education**.
 
-+ Structured Story
-=======
-- Hero Banner
-  - Updated banner that gives a vibrant display
-  - complementary website copy highlighting the departments main slogan – your door to a career in education.
-- Structured Story
->>>>>>> f29a6670ed6728ecabf809bef60136a106967622
-  - The decision to revamp the first section of the web page was to give prospective students a different type of content by leading the story of ‘why’ (important reasons to study and Tyndale) and not ‘what’ (generic statements for admission). 
-  - In a desktop view, it was important to give students the expectations of commitment with Format, Schedule and Practicum information. The level of importance is the same as ‘Why Pursue Teaching at Tyndale’.
-<!-- End list -->
 
 {% ImageWrapper images[5].src, images[5].alt %}
 
