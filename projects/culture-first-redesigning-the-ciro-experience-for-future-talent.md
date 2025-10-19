@@ -3,6 +3,7 @@ title: "Culture First: Redesigning the CIRO Experience for Future Talent"
 tags:
   - projects
 layout: layouts/projects.njk
+slug: ciro-culture
 permalink: projects/{{slug}}/
 ---
 The Canadian Investment Regulatory Organization (CIRO) is the national self-regulatory organization overseeing Canada’s investment and mutual fund sectors. Formed through the consolidation of IIROC and the MFDA, CIRO works to protect investors and strengthen confidence in the Canadian capital markets.
