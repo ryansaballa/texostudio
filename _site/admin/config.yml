@@ -33,6 +33,8 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["projects"] }
+      - { label: "Featured Image", name: "Featured Image", widget: "image", required: false }
+      - { label: "Description", name: "Description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { name: "layout", label: "Layout", widget: "hidden", default: "layouts/projects.njk" }
       - { name: "permalink", label: "Permalink", widget: "hidden", default: "projects/{{slug}}/" }

@@ -5,6 +5,8 @@ tags:
 layout: layouts/projects.njk
 slug: tyndale-university
 permalink: /projects/{{ slug }}/
+description: "The Bachelor of Education is a unique program among all other Bachelor programs at Tyndale University. The purpose of the redesign was to lead with a compelling story and path for potential students to explore by streamlining the admissions program track information to increase student applications."
+image: /images/bed-tyndale-05.png
 images:
   - src: "/images/bed-tyndale-00.png"
     alt: "image"
@@ -34,7 +36,7 @@ Tyndale University
 Tyndale University is a Christian university in Toronto offering a wide range of programs at the undergraduate, seminary & graduate levels. Tyndale's Bachelor of Education (BEd) program is a unique program that accelerates the process to become a certified teacher in Ontario over 16 consecutive months.
 
 ## Purpose of the Redesign and Goal
-The Bachelor of Education is a unique program among all other Bachelor programs at Tyndale University. There was a need for a website redesign for all sections with a main priority to lead with a story on the main home page.
+The Bachelor of Education is a unique program among all other Bachelor programs at Tyndale University. The purpose of the redesign was to lead with a compelling story and path for potential students to explore by streamlining the admissions program track information to increase student applications.
 
 {% ImageWrapper images[0].src, images[0].alt %}
 
@@ -72,9 +74,14 @@ Determining the content structure of the site informed the overall information (
 - **Solution:** Communicating with the Web Manager and the Director of the Department, it was feasible to create a new category that informed the decision to build a new content type to unite all members. By creating a new template for each member, a new category was created entitled ‘BEd Team’.
 
 ## Design Strategy and Development
-The website redesign included updated the micro-copy and content layout patterns from a comparison study of other university websites. New templates and content blocks were created that enabled a better experience for website maintenance (as administrator) and for content readability (as a prospective student online). 
 
 ### Lead with Prospective Students in Mind
+
+The website redesign included updated the micro-copy and content layout patterns from a comparison study of other university websites. 
+
+New templates and content blocks were created that enabled a better experience for website maintenance (as administrator) and for content readability (as a prospective student online). 
+
+{% ImageWrapper images[5].src, images[5].alt %}
 
 ### Organize Content for Readability 
 

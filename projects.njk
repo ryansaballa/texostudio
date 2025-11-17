@@ -9,14 +9,20 @@ permalink: /projects/
         {% include "partials/header.njk" %}
         <main>
             {% include "partials/hero.njk" %}  
-            <section class="article-list">
+            <section class="project-list">
+                {% for projects in collections.projects %}
+                <div class="project-container">
+                <div class="project-featured-image">
+                    <img src="{{ projects.data.image }}">
+                </div>
+                <div class="project-meta-data">
                     <ul>
-                        {% for projects in collections.projects %}
-                        <li><a href="{{ projects.url }}">{{ projects.data.title }}</a>
-                        </li>
-                        {% endfor %}
+                        <li><a href="{{ projects.url }}">{{ projects.data.title }}</a></li>
                     </ul>
-                
+                    <p>{{ projects.data.description }}</p>
+                </div>
+                </div>
+                {% endfor %}
             </section>
 
         </main>
