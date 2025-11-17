@@ -45,7 +45,7 @@ The old structure had one simple page to highlight recruitment, but weaving the 
 
 {% ImageWrapper images[1].src, images[2].alt %}
 
-The proposed site structure re-positioned important information including the organization's commitment to inclusion, accessibility and its mission on the main careers page. The main careers page was re-designed to identify dead-end points of exploration, leading online readers to either learn more about CIRO's EVPs or help shape the Canadian investment industry (job listings).
+The proposed site structure re-positioned important information including the organization's commitment to inclusion, accessibility and its mission on the main careers page. The main careers page was re-designed to identify dead-end points of exploration, leading online readers to either learn more about CIRO's EVPs or learn about open job opportunities.
 
 {% ImageWrapper images[2].src, images[2].alt %}
 
