@@ -4,6 +4,8 @@ slug: my-first-post
 layout: layouts/post.njk
 permalink: article/{{slug}}/
 tags: articles
+description: "this is my first rendered article"
+image: "/images/front-end-img.jpg"
 images:
     - src: "/images/front-end-img.jpg"
       alt: "Front end image"

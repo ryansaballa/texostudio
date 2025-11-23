@@ -18,10 +18,12 @@ collections:
     extension: "md"
     slug: "{{slug}}"
     fields:
-      - { name: "title", label: "Title", widget: "string" }
-      - { name: "body", label: "Body", widget: "markdown" }
-      - { name: "image", label: "Image", widget: "image", required: false }
-      - { name: "layout", label: "Layout", widget: "hidden", default: "layouts/post.njk" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["projects"] }
+      - { label: "Featured Image", name: "Featured Image", widget: "image", required: false }
+      - { label: "Description", name: "Description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { name: "layout", label: "Layout", widget: "hidden", default: "layouts/projects.njk" }
       - { name: "permalink", label: "Permalink", widget: "hidden", default: "article/{{slug}}/" }
   - name: "projects"
     label: "Projects"

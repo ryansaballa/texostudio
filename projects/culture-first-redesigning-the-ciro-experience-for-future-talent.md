@@ -86,6 +86,6 @@ Receiving content first would have avoided rework and made the process smoother 
 ### Re-thinking carousels and accessibility
 Creating a new component on the site has allowed me to be more prepared to include accessibility as part of the process rather than an after-thought during the quality assurance phase. Although I included attributes that helps readers who rely on keyboards using the Tab key, there were areas missed to enhance accessibility using aria-label.
 
-With this in mind, the same type of people annot hover on elements, therefore instead of targeting the arrow buttons to control the quote carousel using the hover state - the focus state should be used.
+With this in mind, the same type of people cannot hover on elements, therefore instead of targeting the arrow buttons to control the quote carousel using the hover state - the focus state should be used.
 
 This experience will help me become more intentional with keeping accessibility in mind with a list of attributes to include when building a component in the future.
