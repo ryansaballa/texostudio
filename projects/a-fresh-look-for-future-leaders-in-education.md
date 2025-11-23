@@ -5,7 +5,7 @@ tags:
 layout: layouts/projects.njk
 slug: tyndale-university
 permalink: /projects/{{ slug }}/
-description: "The Bachelor of Education is a unique program among all other Bachelor programs at Tyndale University. The purpose of the redesign was to lead with a compelling story and path for potential students to explore by streamlining the admissions program track information to increase student applications."
+description: "The Bachelor of Education is a unique program among all other Bachelor programs at Tyndale University. The purpose of the redesign was to lead with a compelling story and path for potential students to explore by streamlining the admissions program track information to increase student applications. TESTING"
 image: /images/bed-tyndale-05.png
 images:
   - src: "/images/bed-tyndale-00.png"
