@@ -1,0 +1,33 @@
+---
+title: Articles
+permalink: /articles/
+---
+
+<!DOCTYPE html>
+    {% include "partials/head.njk" %}
+    <body>
+        {% include "partials/header.njk" %}
+        <main>
+            {% include "partials/hero.njk" %}  
+            <section class="article-list">
+                {% for article in collections.article %}
+                <div class="article-container">
+                <div class="article-featured-image">
+                    <img src="{{ article.data.image }}">
+                </div>
+                <div class="article-meta-data">
+                    <ul>
+                        <li><a href="{{ article.url }}">{{ article.data.title }}</a></li>
+                    </ul>
+                    <p>{{ article.data.description }}</p>
+                </div>
+                </div>
+                {% endfor %}
+            </section>
+
+        </main>
+        {% include "partials/footer.njk" %}
+        {% include "partials/script.njk" %}
+    </body>
+</html>
+

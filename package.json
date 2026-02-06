@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "personal-site",
   "version": "1.0.0",
   "description": "",
@@ -7,12 +8,38 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "eleventy --serve",
     "build": "eleventy"
+=======
+  "name": "texostudio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryansaballa/texostudio.git"
+>>>>>>> a360343d7797b1b3888c43a08b0ac734b2673d6b
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "type": "commonjs",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2"
+=======
+  "bugs": {
+    "url": "https://github.com/ryansaballa/texostudio/issues"
+  },
+  "homepage": "https://github.com/ryansaballa/texostudio#readme",
+  "description": "",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  },
+  "dependencies": {
+    "luxon": "^3.7.2"
+>>>>>>> a360343d7797b1b3888c43a08b0ac734b2673d6b
   }
 }

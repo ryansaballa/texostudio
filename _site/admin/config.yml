@@ -1,0 +1,42 @@
+backend:
+  name: github
+  repo: ryansaballa/texostudio   # change this
+  branch: master                 # or your default branch
+  auth_scope: repo               # Tells GitHub to grant Decap CMS access to: read and write access repositories
+
+media_folder: "images"               # where files get saved in your repo
+public_folder: "/images"            # how those files are referenced on the site
+
+publish_mode: editorial_workflow     # optional: review via PRs
+
+collections:
+  - name: "article"
+    label: "Articles"
+    folder: "article"
+    create: true
+    format: "frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["projects"] }
+      - { label: "Featured Image", name: "Featured Image", widget: "image", required: false }
+      - { label: "Description", name: "Description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { name: "layout", label: "Layout", widget: "hidden", default: "layouts/projects.njk" }
+      - { name: "permalink", label: "Permalink", widget: "hidden", default: "article/{{slug}}/" }
+  - name: "projects"
+    label: "Projects"
+    folder: "projects"
+    create: true
+    format: "frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["projects"] }
+      - { label: "Featured Image", name: "Featured Image", widget: "image", required: false }
+      - { label: "Description", name: "Description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { name: "layout", label: "Layout", widget: "hidden", default: "layouts/projects.njk" }
+      - { name: "permalink", label: "Permalink", widget: "hidden", default: "projects/{{slug}}/" }
