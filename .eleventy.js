@@ -13,6 +13,12 @@ module.exports = function (eleventyConfig) {
       .getFilteredByGlob("article/*.md")
       .sort((a, b) => b.date - a.date)
   })
+  // Add collection for projects
+  eleventyConfig.addCollection("projects", function (collectionApi) {
+    return collectionApi
+      .getFilteredByGlob("projects/*.md")
+      .sort((a, b) => b.date - a.date)
+  })
 
   // Shortcode for styled image wrapper
   eleventyConfig.addShortcode("ImageWrapper", function (src, alt) {

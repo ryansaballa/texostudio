@@ -1,0 +1,33 @@
+---
+title: Projects
+permalink: /Projects/
+---
+
+<!DOCTYPE html>
+    {% include "partials/head.njk" %}
+    <body>
+        {% include "partials/header.njk" %}
+        <main>
+            {% include "partials/hero.njk" %}  
+            <section class="project-list">
+                {% for project in collections.projects %}
+                <div class="project-container">
+                <div class="project-featured-image">
+                    <img src="{{ project.data.image }}">
+                </div>
+                <div class="project-meta-data">
+                    <ul>
+                        <li><a href="{{ project.url }}">{{ project.data.title }}</a></li>
+                    </ul>
+                    <p>{{ project.data.description }}</p>
+                </div>
+                </div>
+                {% endfor %}
+            </section>
+
+        </main>
+        {% include "partials/footer.njk" %}
+        {% include "partials/script.njk" %}
+    </body>
+</html>
+
