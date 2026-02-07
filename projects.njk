@@ -19,7 +19,7 @@ permalink: /Projects/
                     <ul>
                         <li><a href="{{ project.url }}">{{ project.data.title }}</a></li>
                     </ul>
-                    <p>{{ project.data.description }}</p>
+                    <p>{{ project.data.description or project.templateContent | safe }}</p>
                 </div>
                 </div>
                 {% endfor %}
