@@ -37,4 +37,5 @@ By enhancing a Squarespace template with JavaScript and redesigning the homepage
 ### Collection of Stories
 
 ## Reflection
-### Testing
+### Reflection 1
+### Reflection 2
