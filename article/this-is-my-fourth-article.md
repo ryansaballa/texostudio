@@ -1,7 +1,7 @@
 ---
 title: This is my fourth rendered article
 tags:
-  - projects
+  - articles
 Description: This is my fourth article
 layout: layouts/projects.njk
 permalink: article/{{slug}}/
