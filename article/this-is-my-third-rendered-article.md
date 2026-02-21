@@ -1,10 +1,10 @@
 ---
-title: This is my fifth rendered article
-slug: my-fifth-post
+title: This is my third rendered article
+slug: my-third-post
 layout: layouts/post.njk
 permalink: articles/{{slug}}/
 tags: articles
-description: "this is my fifth rendered article"
+description: "this is my third rendered article"
 date: 2026-02-08
 image: "/images/front-end-img.jpg"
 images:
