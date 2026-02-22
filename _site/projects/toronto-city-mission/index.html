@@ -44,17 +44,69 @@
 <p>By enhancing a Squarespace template with JavaScript and redesigning the homepage with dynamic blog and event content, the project strengthens calls to action to improve program visibility and increase enrolment.</p>
 <h2>Research and Strategy</h2>
 <h3>Content Audit</h3>
+<p>There was a good amount of information related to volunteering opportunities, communities and programs that people can get involved in. The focus was to understand the organization’s current structure and find opportunities to identify categories and enhance the learning journey for areas of volunteering.</p>
+<ul>
+<li>uniting the organization’s impact with stories from staff, volunteers and guest speakers with important communications collateral including events and newsletters</li>
+<li>designing categories for stories/blogs with meaningful and rich text for SEO and navigation</li>
+</ul>
 <h3>Non-profit Website Layout Research</h3>
-<h3>Wireframing</h3>
+<p>A comparative analysis was conducted to evaluate non-profit website layouts and call-to-action strategies, examining how readers navigate for information about volunteering and donating. The study focused on identifying key areas of call-to-action and grid layouts across similar organizations including Yonge Street Mission, Intervarsity Canada, and Daily Bread Food Bank.</p>
+<p><a href="https://docs.google.com/presentation/d/e/2PACX-1vQxuxCejLX9uakSwPQmETuDAy0y5PQLq32mCdF2njk5nZe6IBdinjqPgUZ4o8E6iSwD6x0N2yLt3vWN/pub?start=false&amp;loop=false&amp;delayms=3000">View the research proposal presentation on Google</a></p>
 <h2>Challenges</h2>
-<h3>Taxonomy</h3>
-<h3>Contextual linking</h3>
+<p><strong>Content migration and re-creating old blog content with new URLs for impact stories that match their category</strong></p>
+<ul>
+<li>the manual process involved batching each content with the appropriate impact story category, descriptive title, description, SEO metadata, author and published date</li>
+<li>creating a workbench documented on notion helped with ensuring every entry was migrated and formatted in their new webpage layout with their appropriate metadata</li>
+<li>re-creating stories involved re-creating internal links in each story which could point to old program, community webpages or blog entries</li>
+</ul>
+<p><strong>Working within the constraints of Squarespace templates</strong></p>
+<ul>
+<li>In the midst of templating webpages for the parent pages displayed on the nav bar, there was a feature in Squarespace that did not allow users to immediately view the parent page</li>
+<li>Squarespace lacked the availability of users clicking on a parent page without being directed to their immediate child page on the navigation bar</li>
+</ul>
 <h2>Design Strategy and Development</h2>
+<p>The homepage, communities, programs and impact pages were redesigned with concise descriptions, calls-to-action and internal linking to boost search engine rankings, content engagement and website structure.</p>
 <h3>Homepage</h3>
+<ul>
+<li>Redesigned the homepage with full-width content compared to the constrained design from a previous template</li>
+<li>Embedded multiple calls to action for exploring programs, communities, opportunities to volunteer and dynamic content views for stories</li>
+<li>Provided supplementary information for events and ways to donate</li>
+</ul>
 <h3>Program and Community Landing Pages</h3>
+<ul>
+<li>Layout redesigned for a wider content-fit</li>
+<li>includes internal links to related communities that provide such programs and volunteer information</li>
+<li>readers have the opportunity to read more stories that are connected to each program</li>
+</ul>
 <h3>Collection of Stories</h3>
+<ul>
+<li>Linear scrolling blogs were redesigned to stories on a grid for readers to explore</li>
+<li>Blogs were renamed as stories to fit the organization’s brand related to community impact and development</li>
+<li>Structured content with meaningful categories that include persepectives from staff and volunteers while featuring main community impact stories and organization announcement</li>
+</ul>
 <h2>Reflection</h2>
-<h3>Testing</h3>
+<h3>Applying JavaScript in SquareSpace templates</h3>
+<p>Squarespace's default navigation behavior redirects parent links to their first child page. To meet the organization's requirement for dedicated landing pages (About, Communities, Programs, Impact, Donate), I implemented JavaScript event handlers to override this limitation, ensuring direct access to each main section.</p>
+<p>An example of an event handler for the programs page is below:</p>
+<ul>
+<li>once the page is fully loaded, each new child page is targeted</li>
+<li>an if function is used to check if the link exists and prevents errors if the link isn't found</li>
+<li>a click event handler is attached to the link, and runs the code to stop navigating to the child page</li>
+<li>the user is redirected to the main landing page (&quot;/programs&quot;)</li>
+</ul>
+<pre><code class="language-javascript">document.addEventListener(&quot;DOMContentLoaded&quot;, function () {
+  var link = document.querySelector(
+    'a.header-nav-folder-title[href=&quot;/programs-toronto-city-mission&quot;]',
+  )
+
+  if (link) {
+    link.addEventListener(&quot;click&quot;, function (event) {
+      event.preventDefault()
+      window.location.href = &quot;/programs&quot;
+    })
+  }
+})
+</code></pre>
 
       </article>
     </section>

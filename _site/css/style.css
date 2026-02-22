@@ -41,20 +41,20 @@ p {
 }
 
 li {
-  font-size: 1.15rem;
+  font-size: 1rem;
   line-height: 1.6em;
+  margin: 0.5em 0;
 }
 
 ul {
   list-style-type: disc !important;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
 }
 ul ul {
   list-style-type: circle;
 }
 
-li {
-  margin: 1em 0;
-}
 /* header nav */
 
 .site-header {
@@ -367,7 +367,7 @@ main {
 }
 
 .article-post h2 {
-  margin-bottom: 1em;
+  margin: 1em 0em;
 }
 
 /* Image Wrapper */
@@ -530,7 +530,7 @@ article img {
 .project-post h3,
 .project-post h2,
 .project-post p {
-  margin: 1em 0em;
+  margin: 0.5em 0em;
 }
 
 /* project layout styling */
@@ -620,6 +620,30 @@ footer {
   width: 100%;
   max-width: 1200px;
   margin: auto;
+}
+
+/* code block for .md file */
+
+pre {
+  background-color: #f7f7f8;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 16px 18px;
+  overflow-x: auto;
+  font-size: 14px;
+  line-height: 1.6;
+  font-family:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  color: #1f2937; /* neutral dark gray text */
 }
 
 /* media query tablet layout */
