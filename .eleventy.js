@@ -20,6 +20,26 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => b.date - a.date)
   })
 
+  // Shortcode for multiple images in styled image wrapper
+
+  eleventyConfig.addShortcode("ImageWrapperMultiple", function (images) {
+    // image array
+    const imageTags = images
+      .map(
+        (img) =>
+          `<div class="styled-image">
+          <img src="${img.src}" alt="${img.alt}" class="image" loading="lazy" />
+        </div>`,
+      )
+      .join("")
+
+    return `
+        <div class="image-flex-container">
+          ${imageTags}
+        </div>
+        `
+  })
+
   // Shortcode for styled image wrapper
   eleventyConfig.addShortcode("ImageWrapper", function (src, alt) {
     return `

@@ -7,6 +7,30 @@ description: "Over six months, I worked closely with the Communications Team and
 slug: toronto-city-mission
 date: 2026-01-10
 permalink: projects/{{slug}}/
+image: /images/tcm-screenshot-06.png
+images:
+  - src: "/images/tcm-screenshot-00.png"
+    alt: "image"
+  - src: "/images/tcm-screenshot-01.jpg"
+    alt: ""
+  - src: "/images/tcm-screenshot-02.png"
+    alt: ""
+  - src: "/images/tcm-screenshot-03.png"
+    alt: ""
+  - src: "/images/tcm-screenshot-04.png"
+    alt: ""
+  - src: "/images/tcm-screenshot-05.png"
+    alt: ""
+  - src: "/images/tcm-screenshot-06.png"
+    alt: ""
+  - src: "/images/tcm-screenshot-07.png"
+    alt: ""
+  - src: "/images/tcm-screenshot-08.png"
+    alt: ""
+  - src: "/images/tcm-screenshot-09.png"
+    alt: ""
+  - src: "/images/tcm-screenshot-10.png"
+    alt: ""
 ---
 
 This website design project was completed in 6 months in collaboration with the Communications Team and Operations Director at Toronto City Mission (TCM) to enhance the organization’s offerings and community programs with kids and teens.
@@ -29,8 +53,12 @@ By enhancing a Squarespace template with JavaScript and redesigning the homepage
 
 There was a good amount of information related to volunteering opportunities, communities and programs that people can get involved in. The focus was to understand the organization’s current structure and find opportunities to identify categories and enhance the learning journey for areas of volunteering.
 
-- uniting the organization’s impact with stories from staff, volunteers and guest speakers with important communications collateral including events and newsletters
-- designing categories for stories/blogs with meaningful and rich text for SEO and navigation
+The content audit was focused on how to unite the organization’s impact with stories from staff, volunteers, and guest speakers through key communications collateral such as events and newsletters. Designing well-structured blog categories with meaningful, SEO-rich content was the goal to improve navigation and discoverability.
+
+{% ImageWrapperMultiple [
+  { src: "/images/tcm-screenshot-00.png", alt:"screenshot 1" },
+  { src: "/images/tcm-screenshot-02.png", alt:"screenshot 2" }
+]%}
 
 ### Non-profit Website Layout Research
 
@@ -42,14 +70,17 @@ A comparative analysis was conducted to evaluate non-profit website layouts and 
 
 **Content migration and re-creating old blog content with new URLs for impact stories that match their category**
 
-- the manual process involved batching each content with the appropriate impact story category, descriptive title, description, SEO metadata, author and published date
-- creating a workbench documented on notion helped with ensuring every entry was migrated and formatted in their new webpage layout with their appropriate metadata
-- re-creating stories involved re-creating internal links in each story which could point to old program, community webpages or blog entries
+The manual process involved batching each content item with the appropriate impact story category, descriptive title, description, SEO metadata, author, and published date.
+
+Creating a Notion-documented workbench ensured every entry was properly migrated and formatted in the new webpage layout, while re-creating stories included restoring internal links to their corresponding program, community, or blog pages.
+
+{% ImageWrapper images[3].src, images[0].alt %}
 
 **Working within the constraints of Squarespace templates**
 
-- In the midst of templating webpages for the parent pages displayed on the nav bar, there was a feature in Squarespace that did not allow users to immediately view the parent page
-- Squarespace lacked the availability of users clicking on a parent page without being directed to their immediate child page on the navigation bar
+While templating navigation parent pages, we encountered a limitation in Squarespace that prevented users from directly accessing a parent page, instead automatically redirecting them to its first child page in the navigation.
+
+The solution was to use JavaScript event handlers to override this limitation, ensuring direct access to each main section.
 
 ## Design Strategy and Development
 
@@ -57,21 +88,32 @@ The homepage, communities, programs and impact pages were redesigned with concis
 
 ### Homepage
 
-- Redesigned the homepage with full-width content compared to the constrained design from a previous template
-- Embedded multiple calls to action for exploring programs, communities, opportunities to volunteer and dynamic content views for stories
-- Provided supplementary information for events and ways to donate
+Redesigned the homepage with a full-width layout, integrating clear calls to action for programs, communities, volunteering, stories, events, and donations.
+
+{% ImageWrapperMultiple [
+  { src: "/images/tcm-screenshot-04.png", alt:"screenshot 1" },
+  { src: "/images/tcm-screenshot-09.png", alt:"screenshot 2" }
+]%}
 
 ### Program and Community Landing Pages
 
-- Layout redesigned for a wider content-fit
-- includes internal links to related communities that provide such programs and volunteer information
-- readers have the opportunity to read more stories that are connected to each program
+The layout was redesigned for a wider content fit, featuring internal links to related communities with program and volunteer information, while giving readers the opportunity to explore additional stories connected to each program.
+
+{% ImageWrapperMultiple [
+  { src: "/images/tcm-screenshot-10.png", alt:"screenshot 1" },
+  { src: "/images/tcm-screenshot-07.png", alt:"screenshot 2" },
+  { src: "/images/tcm-screenshot-10.png", alt:"screenshot 2" },
+  { src: "/images/tcm-screenshot-08.png", alt:"screenshot 2" }
+]%}
 
 ### Collection of Stories
 
-- Linear scrolling blogs were redesigned to stories on a grid for readers to explore
-- Blogs were renamed as stories to fit the organization’s brand related to community impact and development
-- Structured content with meaningful categories that include persepectives from staff and volunteers while featuring main community impact stories and organization announcement
+Linear scrolling blogs were redesigned into a branded grid of stories, structured with meaningful categories highlighting staff and volunteer perspectives, key community impact stories, and organizational announcements.
+
+{% ImageWrapperMultiple [
+  { src: "/images/tcm-screenshot-05.png", alt:"screenshot 1" },
+  { src: "/images/tcm-screenshot-06.png", alt:"screenshot 2" }
+]%}
 
 ## Reflection
 
