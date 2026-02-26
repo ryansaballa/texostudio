@@ -86,6 +86,8 @@ The solution was to use JavaScript event handlers to override this limitation, e
 
 The homepage, communities, programs and impact pages were redesigned with concise descriptions, calls-to-action and internal linking to boost search engine rankings, content engagement and website structure.
 
+Below is a summary of changes of the main sections on the website. Screenshots are ordered by the old website layout featured on the left to the new designs on the right.
+
 ### Homepage
 
 Redesigned the homepage with a full-width layout, integrating clear calls to action for programs, communities, volunteering, stories, events, and donations.

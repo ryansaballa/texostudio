@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Texo Studio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header class="site-header">
+    <div class="site-header-inner">
+    <!-- Logo -->
+     <div class="logo-group">
+        <img class="logo" src="/images/texo-icon.png">
+         <h1>Texo Studio</h1>
+    </div>
+    <!-- Hamburger menu --> 
+    <button class="menu-toggle" aria-label="Toggle Menu" aria-expanded="false">
+        <span class="hamburger"></span>
+        <span class="close-icon"></span>
+    </button>
+
+
+    <!-- Site Navigation -->
+     <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/articles">Articles</a></li>
+            <li><a href="/projects">Projects</a></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+  <main>
+    <section class="article">
+      <article class="article-post">
+      <h1>Creating Accessible Tables</h1>
+      <p>Tables are useful for displaying data and organizing information neatly. However, table headers have a semantic purpose: they should define the scope of a group of related cells. Using table headers solely for visual formatting should instead be treated as a label, not a true header.</p>
+<p>The first decision to creating tables is to decide whether data points will be related to one another or not.</p>
+<ul>
+<li>If the data in the table is interdependent, defined headers are needed to group data</li>
+<li>If the data in the table is not related, defined headers are not needed</li>
+</ul>
+<h2>Layout Tables</h2>
+<p>Layout tables are for visual formatting. The content is formatted like a table to outline each paragraph in a specified structure, but there is no meaningful relationship in between the rows and columns.</p>
+<p>Labels and fields appear like headings in a table but they are not defined. Content in a layout table are tagged independently as a list or paragraph.</p>
+<p>An example would be a Bus Schedule in a table layout below:</p>
+<table>
+<thead>
+<tr>
+<th>Route</th>
+<th>12A</th>
+<th>45B</th>
+<th>21C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7:00</td>
+<td>7:05</td>
+<td>8:10</td>
+<td>9:15</td>
+</tr>
+<tr>
+<td>8:00</td>
+<td>7:20</td>
+<td>8:15</td>
+<td>9:17</td>
+</tr>
+<tr>
+<td>9:00</td>
+<td>7:25</td>
+<td>8:21</td>
+<td>9:20</td>
+</tr>
+</tbody>
+</table>
+<h2>Data Tables</h2>
+<p>Data tables have implied meaning that are structured semantically to tell assistive technologies about defined headers and columns. Each data point displays structured information where the relationships between rows and columns are meaningful.</p>
+<p>If a header can describe multiple cells across its defined scope (row, column) then it is a true header, otherwise it is a label and is formatted as a layout table.</p>
+<p>Ask yourself, <em>If the headers are removed, do the data cells look ambiguous?</em></p>
+<p>An example of organic vs non-organic produce in Canada (<a href="https://bati-itao.github.io/learning/esdc-self-paced-web-accessibility-course/module4/multi-level-headers.html">link</a>)</p>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Category</th>
+      <th scope="col">Item</th>
+      <th scope="col">Canada</th>
+      <th scope="col">USA</th>
+      <th scope="col">UK</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="rowgroup" rowspan="3">Organic (1kg)</th>
+      <th scope="row">Apples</th>
+      <td>$3.62</td>
+      <td>$4.87</td>
+      <td>$2.69</td>
+    </tr>
+    <tr>
+      <th scope="row">Bananas</th>
+      <td>$1.47</td>
+      <td>$1.68</td>
+      <td>$1.60</td>
+    </tr>
+    <tr>
+      <th scope="row">Onions</th>
+      <td>$2.28</td>
+      <td>$2.81</td>
+      <td>$1.44</td>
+    </tr>
+    <tr>
+      <th scope="rowgroup" rowspan="3">Non-organic (1kg)</th>
+      <th scope="row">Apples</th>
+      <td>$3.37</td>
+      <td>$4.53</td>
+      <td>$2.50</td>
+    </tr>
+    <tr>
+      <th scope="row">Bananas</th>
+      <td>$1.37</td>
+      <td>$1.56</td>
+      <td>$1.49</td>
+    </tr>
+    <tr>
+      <th scope="row">Onions</th>
+      <td>$2.12</td>
+      <td>$2.61</td>
+      <td>$1.34</td>
+    </tr>
+  </tbody>
+</table>
+
+      </article>
+    </section>
+  </main>
+     <footer>
+    <section class="footer-inner">
+            <div>
+                <p>Web Developer Journal</p>
+                <p>Made in Toronto with <span style="color: #e25555;">&#9829;</span></p>
+            </div>
+            <div>
+                <p>Copyright ©2025</p>
+            </div>
+    </section>
+</footer>
+    <script src="/js/main.js" type="module"></script>
+</body>
+</html>
