@@ -23,7 +23,7 @@ body {
 
 h1 {
   font-size: 1.75rem;
-  margin: 0;
+  margin-bottom: 1rem;
 }
 
 h2 {
@@ -33,6 +33,7 @@ h2 {
 
 h3 {
   font-size: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 p {
@@ -43,7 +44,7 @@ p {
 
 li {
   font-size: 1rem;
-  line-height: 1.6em;
+  line-height: 1rem;
   margin: 0.5em 0;
 }
 
@@ -53,6 +54,8 @@ ul {
 }
 ul ul {
   list-style-type: circle;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
 }
 
 .project-post > ul,
@@ -348,12 +351,10 @@ main {
 
 .featured-section {
   display: flex;
-  align-items: end;
-  background-image: url("/images/front-end-img.jpg");
+  align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 18em;
-  padding: 2em;
   margin-top: 7.8em;
 }
 
@@ -368,9 +369,16 @@ main {
   text-underline-offset: 4px;
 }
 
+.featured-intro {
+  flex: 1;
+  padding-right: 2rem;
+}
+
 .featured {
-  max-width: 50%;
-  padding-bottom: 1.25em;
+  flex: 1;
+  height: 100%;
+  padding: 2rem;
+  background-color: #064dd9;
 }
 
 .featured .article-meta {
@@ -838,7 +846,7 @@ pre code {
     padding: 0px;
   }
   .featured-section {
-    min-height: 30em;
+    min-height: 400px;
   }
   main {
     display: flex;
