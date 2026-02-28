@@ -3,7 +3,7 @@ title: "Culture First: Redesigning the CIRO Experience for Future Talent"
 tags:
   - projects
 layout: layouts/projects.njk
-description: "I collaborated with Human Resources and the Communications Team to redesign the organization’s site around its core pillars—Pride in Excellence, a Focus on Well-being, and a Shared Purpose—showcasing culture, values, and benefits to strengthen recruitment and improve employee retention."
+description: "Collaborated with Human Resources and the Communications Team to strengthen recruitment and improve employee retention by embedding the organization’s site around its core pillars—Pride in Excellence, a Focus on Well-being, and a Shared Purpose — showcasing culture, values, and benefits."
 slug: ciro-culture
 permalink: projects/{{slug}}/
 image: /images/ciro-about-careers-featured.png

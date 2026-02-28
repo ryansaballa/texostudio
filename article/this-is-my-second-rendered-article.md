@@ -1,29 +1,27 @@
 ---
-title: This is my second rendered article
-slug: my-second-post
+title: Math Formulas and Assistive Technology
+slug: math-formulas-and-assistive-technology
 layout: layouts/post.njk
 permalink: articles/{{slug}}/
 tags: articles
-description: "this is my second rendered article"
+description: "Optimizing screen-reading technologies for formulas featured in PDF documents"
 date: 2026-02-07
-image: "/images/front-end-img.jpg"
-images:
-  - src: "/images/front-end-img.jpg"
-    alt: "Front end image"
-  - src: "/images/article-img.jpg"
-    alt: "article image"
 ---
 
-This is a milestone for sticking through and building a working web page application that renders out markdown files into content that lives on a website.
+Making formulas in PDFs requires tagging them. When a formula is presented as an image or a paragraph, Mathematical Markup Language (MathML) can be used - but Adobe Acrobat does not natively use or edit MathML.
 
-This is a second paragraph to see if the writing from Decap CMS gets rendered to the server.
+Using the alternative text within tags in a PDF ensures formulas continue to remain perceivable, operable, understandable and robust.
 
-I am realizing that every time i add or update an existing article, i need to republish it.
+**Tagging Formulas**
 
-{% ImageWrapper images[0].src , images[0].alt %}
+Since the formula is part of a sentence, wrap the formula with an inline <span> tag nested in a paragraph tag declaring the actual text.
 
-It goes back to the draft status after saving with the update content, then i manually have to publish it again, after setting the status to Ready.
+- insert Actual text on the inner span tag
+- use human language to avoid unambiguous spoken math (avoid 'x' spoken letter)
+  - X = times
+  - / = divided by
 
-This is my final message for tonight - confirming that the updates I make on Decap CMS get rendered to the production site properly in a continuous fashion - based on the configuration set up using Netlify and Github.
+Since the formula is its own element and not a part of a sentence, wrap the formula within a <span> tag. In alignment to the semantic of a data cell, single data points are not wrapped in a paragraph tag, but a data cell. Therefore, a span tag is used to declare the actual text.
 
-{% ImageWrapper images[1].src , images[1].alt %}
+    Insert Actual text on the p tag
+    Use human language to avoid unambiguous spoken math

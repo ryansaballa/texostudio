@@ -3,7 +3,7 @@ title: Weaving Stories and Programs for Community Impact
 tags:
   - projects
 layout: layouts/projects.njk
-description: "Over six months, I worked closely with the Communications Team and Operations Director at Toronto City Mission (TCM) to redesign their website that enhances the organization’s programs and offerings for children and teenagers in the community."
+description: "Led the Communications Team and Operations Director at Toronto City Mission (TCM) to enhance their programs and offerings for children and teenagers in the community with impactful stories, structured landing pages."
 slug: toronto-city-mission
 date: 2026-01-10
 permalink: projects/{{slug}}/

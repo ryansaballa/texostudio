@@ -5,7 +5,7 @@ tags:
 layout: layouts/projects.njk
 slug: tyndale-university
 permalink: /projects/{{ slug }}/
-description: "I worked closely with the Web Manager and Admissions team at Tyndale University to redesign the Bachelor of Education program, crafting a compelling story and streamlining admissions information to help prospective students explore the program and boost applications."
+description: "Worked closely with the Web Manager and Admissions team at Tyndale University to to help prospective students explore the program and boost applications by redesigning the Bachelor of Education program, crafting a compelling story and streamlining admissions information."
 image: /images/bed-tyndale-05.png
 date: 2026-02-02
 images:
