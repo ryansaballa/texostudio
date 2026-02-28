@@ -23,12 +23,13 @@ body {
 
 h1 {
   font-size: 1.75rem;
-  margin-bottom: 1rem;
+  margin: 0;
 }
 
 h2 {
   font-size: 1.5rem;
   display: inline-block;
+  margin-bottom: 1rem;
 }
 
 h3 {
@@ -63,7 +64,14 @@ ul ul {
   padding-left: 1rem;
 }
 
-/* ChatGPT-like table styling */
+hr {
+  height: 0.75px;
+  background-color: #0d0d0d0d;
+  border: none;
+  margin: 2rem 0;
+}
+
+/* table styling */
 
 table {
   width: 100%;
@@ -351,11 +359,11 @@ main {
 
 .featured-section {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   min-height: 18em;
   margin-top: 7.8em;
+  gap: 2em;
 }
 
 .featured-section .article-header,
@@ -783,6 +791,11 @@ pre code {
       "a1 a2"
       "a3 a4"
       "a5 a6";
+  }
+
+  .featured-section {
+    flex-direction: row;
+    gap: 4em;
   }
 
   /* about page */

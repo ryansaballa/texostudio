@@ -15,6 +15,8 @@ The first decision to creating tables is to decide whether data points will be r
 - If the data in the table is interdependent, defined headers are needed to group data
 - If the data in the table is not related, defined headers are not needed
 
+<hr>
+
 ## Layout Tables
 
 Layout tables are for visual formatting. The content is formatted like a table to outline each paragraph in a specified structure, but there is no meaningful relationship in between the rows and columns.

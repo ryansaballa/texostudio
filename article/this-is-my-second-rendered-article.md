@@ -17,6 +17,12 @@ Making formulas in PDFs requires tagging them. When a formula is presented as an
 
 Using the alternative text within tags in a PDF ensures formulas continue to remain perceivable, operable, understandable and robust.
 
+There are situations a formula may be an image where the <strong>Formula</strong> tag is used. According to PDF/UA accessibility guidelines, “All mathematical expressions shall be enclosed within a Formula tag and shall have an ALT attribute.” The use cases below are in the context of making formulas accessible when tagged as a paragraph, with the <strong>alternative text</strong> attribute defined.
+
+To learn more information about accessibility in different content use cases, a great resource worth checking out is visiting [accessiblewebsiteservices.com](https://accessiblewebsiteservices.com/accessible-pdfs-math-formulas-screen-readers-2/).
+
+<hr>
+
 ## Tagging Formulas
 
 ### Use Case: Inline Tagging as one element
@@ -29,6 +35,7 @@ Since the formula is part of a sentence, wrap the formula with an inline <span> 
   - / = divided by
 
 Below is a screenshot of how to make a formula accessible in a PDF document, using the span tag:
+<em>The alternative text would be <strong>"1.00% times number of days to maturity 365"</strong>.</em>
 
 {% ImageWrapper images[0].src , images[0].alt %}
 
