@@ -31,6 +31,8 @@ This website design project was completed in 2 months using Drupal and SharePoin
 
 The Canadian Investment Regulatory Organization (CIRO) is the national self-regulatory organization overseeing Canada’s investment and mutual fund sectors. Formed through the consolidation of IIROC and the MFDA, CIRO works to protect investors and strengthen confidence in the Canadian capital markets.
 
+<hr>
+
 ## Purpose of the Redesign and Goal
 
 The purpose of the redesign is to display the organization's culture, values and benefits as a strategy for recruitment and employee retention. The Employee Value Propositions (EVP) are driven by three core pillars: Pride in Excellence, a Focus on Well-being and a Shared Purpose.

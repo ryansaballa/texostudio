@@ -37,6 +37,8 @@ Tyndale University
 
 Tyndale University is a Christian university in Toronto offering a wide range of programs at the undergraduate, seminary & graduate levels. Tyndale's Bachelor of Education (BEd) program is a unique program that accelerates the process to become a certified teacher in Ontario over 16 consecutive months.
 
+<hr>
+
 ## Purpose of the Redesign and Goal
 
 The Bachelor of Education is a unique program among all other Bachelor programs at Tyndale University. The purpose of the redesign was to lead with a compelling story and path for potential students to explore by streamlining the admissions program track information to increase student applications.

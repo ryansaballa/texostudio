@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Texo Studio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header class="site-header">
+    <div class="site-header-inner">
+    <!-- Logo -->
+     <div class="logo-group">
+        <img class="logo" src="/images/texo-icon-blue.png">
+         <h1>Texo Studio</h1>
+    </div>
+    <!-- Hamburger menu --> 
+    <button class="menu-toggle" aria-label="Toggle Menu" aria-expanded="false">
+        <span class="hamburger"></span>
+        <span class="close-icon"></span>
+    </button>
+
+
+    <!-- Site Navigation -->
+     <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/articles">Articles</a></li>
+            <li><a href="/projects">Projects</a></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+  <main>
+    <section class="article">
+      <article class="article-post">
+      <h1>Formulas and Assistive Technology</h1>
+      <p>Making formulas in PDFs requires tagging them. When a formula is presented as an image or a paragraph, Mathematical Markup Language (MathML) can be used - but Adobe Acrobat does not natively use or edit MathML.</p>
+<p>Using the alternative text within tags in a PDF ensures formulas continue to remain perceivable, operable, understandable and robust.</p>
+<p>There are situations a formula may be an image where the <strong>Formula</strong> tag is used. According to PDF/UA accessibility guidelines, “All mathematical expressions shall be enclosed within a Formula tag and shall have an ALT attribute.” The use cases below are in the context of making formulas accessible when tagged as a paragraph, with the <strong>alternative text</strong> attribute defined.</p>
+<p>To learn more information about accessibility in different content use cases, a great resource worth checking out is visiting <a href="https://accessiblewebsiteservices.com/accessible-pdfs-math-formulas-screen-readers-2/">accessiblewebsiteservices.com</a>.</p>
+<hr>
+<h2>Tagging Formulas</h2>
+<h3>Use Case: Inline Tagging as one element</h3>
+<p>Since the formula is part of a sentence, wrap the formula with an inline <span> tag nested in a paragraph tag declaring the actual text.</p>
+<ul>
+<li>insert Actual text on the inner span tag</li>
+<li>use human language to avoid unambiguous spoken math (avoid 'x' spoken letter)
+<ul>
+<li>X = times</li>
+<li>/ = divided by</li>
+</ul>
+</li>
+</ul>
+<p>Below is a screenshot of how to make a formula accessible in a PDF document, using the span tag:
+<em>The alternative text would be <strong>&quot;1.00% times number of days to maturity 365&quot;</strong>.</em></p>
+<p><div class="styled-image">
+<img src="/images/accessible-formula-00.png" alt="Front end image" class="image" loading="lazy" />
+</div></p>
+<h3>Use Case: Inline Tagging with another element</h3>
+<p>Since the formula is its own element and not a part of a sentence, wrap the formula within a <span> tag. In alignment to the semantic of a data cell, single data points are not wrapped in a paragraph tag, but a data cell. Therefore, a span tag is used to declare the actual text.</p>
+<ul>
+<li>Insert Actual text on the paragraph tag</li>
+<li>Similar to the use case above, use human language to avoid unambiguous spoken math</li>
+</ul>
+<p>Below is a screenshot of how to make a formula accessible with a surrounding paragraph tag:</p>
+<p><div class="styled-image">
+<img src="/images/accessible-formula-01.png" alt="article image" class="image" loading="lazy" />
+</div></p>
+
+      </article>
+    </section>
+  </main>
+     <footer>
+    <section class="footer-inner">
+            <div>
+                <p>Ryan Saballa<br>
+                Made in Toronto with <span style="color: #e25555;">&#9829;</span></p>
+            </div>
+            <div>
+                <p>Copyright ©2025</p>
+            </div>
+    </section>
+</footer>
+    <script src="/js/main.js" type="module"></script>
+</body>
+</html>

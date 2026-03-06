@@ -41,6 +41,8 @@ Founded in 1879, Toronto City Mission is Toronto’s oldest continuous outreach 
 
 The organization continues to provide diverse programs including: Sonshine Day Camp, Kids in Community (KIC), Education Provided in Community (EPIC), Youth Extreme (YX), Teens Leading Communities (TLC), and Role Model Moms (RMM).
 
+<hr>
+
 ## Purpose of the Redesign
 
 The website redesign aims to unify stories, testimonies, and program outcomes into a clear, connected narrative while improving site architecture through parent–child page relationships and a tighter content taxonomy.

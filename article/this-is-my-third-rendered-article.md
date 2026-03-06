@@ -1,10 +1,10 @@
 ---
-title: This is my third rendered article
-slug: my-third-post
+title: Using Props in React
+slug: using-props-in-react
 layout: layouts/post.njk
 permalink: articles/{{slug}}/
 tags: articles
-description: "this is my third rendered article"
+description: "How to pass data, receive props and map components with an example of a personal travel journal."
 date: 2026-02-08
 image: "/images/front-end-img.jpg"
 images:

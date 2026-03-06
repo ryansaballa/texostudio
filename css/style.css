@@ -65,7 +65,7 @@ ul ul {
 }
 
 hr {
-  height: 0.75px;
+  height: 1px;
   background-color: #0d0d0d0d;
   border: none;
   margin: 2rem 0;
@@ -387,6 +387,7 @@ main {
   height: 100%;
   padding: 2rem;
   background-color: #064dd9;
+  border-radius: 6px;
 }
 
 .featured .article-meta {
@@ -487,7 +488,16 @@ main {
 
 /* styling article layout */
 
-article img {
+.article-img {
+  height: 200px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0 4px 6px 2px #f0f0f0;
+  border-radius: 6px;
+}
+
+.article-img img {
+  height: 100%;
   width: 100%;
 }
 

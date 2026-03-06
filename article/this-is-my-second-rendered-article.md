@@ -1,6 +1,6 @@
 ---
-title: Math Formulas and Assistive Technology
-slug: math-formulas-and-assistive-technology
+title: Formulas and Screen Readers
+slug: formulas-and-screen-readers
 layout: layouts/post.njk
 permalink: articles/{{slug}}/
 tags: articles
