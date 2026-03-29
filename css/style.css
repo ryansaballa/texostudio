@@ -783,7 +783,7 @@ pre code {
 
 /* media query tablet layout */
 
-@media (min-width: 575px) {
+@media (min-width: 475px) {
   /* hamburger menu */
   .menu-toggle {
     display: none;
