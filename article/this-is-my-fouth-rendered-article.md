@@ -1,10 +1,10 @@
 ---
-title: This is my fourth rendered article
-slug: my-fourth-post
+title: Reflections and JavaScript
+slug: reflections-and-javascript
 layout: layouts/post.njk
 permalink: articles/{{slug}}/
 tags: articles
-description: "this is my fourth rendered article"
+description: "Creating a daily reflection journal with HTML, CSS and JavaScript."
 date: 2026-02-08
 image: "/images/front-end-img.jpg"
 images:
