@@ -474,6 +474,18 @@ main {
   display: flex;
   flex-direction: column;
   margin-top: 2.5em;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .article-header h2,
@@ -703,6 +715,7 @@ main {
   flex-direction: row;
   align-items: start;
   justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #fff;
   box-shadow: 0 4px 6px 2px #f0f0f0;
   border-radius: 6px;
@@ -783,7 +796,7 @@ pre code {
 
 /* media query tablet layout */
 
-@media (min-width: 768px) {
+@media (min-width: 475px) {
   /* hamburger menu */
   .menu-toggle {
     display: none;
