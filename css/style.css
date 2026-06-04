@@ -338,6 +338,7 @@ body {
 main {
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 3em;
 }
 
 /* layout for homepage */
