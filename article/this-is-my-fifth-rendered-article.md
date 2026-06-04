@@ -20,9 +20,7 @@ This mock-up web application was built using plain HTML, CSS and JavaScript to s
 
 **Canadian Investment Regulatory Organization**
 
-The Canadian Investment Regulatory Organization (CIRO) is the national self-regulatory organization overseeing Canada’s investment and mutual fund sectors. Formed through the consolidation of IIROC and the MFDA, CIRO works to protect investors and strengthen confidence in the Canadian capital markets.
-
-Investor Alerts inform the main public on their website informing them about potential harmful activity by organizations and individuals.
+The Canadian Investment Regulatory Organization (CIRO) alerts the main public on their website about potential fraudulent activity by organizations and individuals.
 
 ## Purpose of the Redesign and the Goal
 
