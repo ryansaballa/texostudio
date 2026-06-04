@@ -8,9 +8,9 @@ description: "Optimizing screen-reading technologies for formulas featured in PD
 date: 2026-02-07
 images:
   - src: "/images/accessible-formula-00.png"
-    alt: "Front end image"
+    alt: "Creating an accessible formula in a PDF document"
   - src: "/images/accessible-formula-01.png"
-    alt: "article image"
+    alt: "Tagging a formula for accessibility with a surrounding paragraph tag:"
 ---
 
 Making formulas in PDFs requires tagging them. When a formula is presented as an image or a paragraph, Mathematical Markup Language (MathML) can be used - but Adobe Acrobat does not natively use or edit MathML.

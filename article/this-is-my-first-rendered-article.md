@@ -8,7 +8,7 @@ description: "How to create accessible tables in PDF documents for screen readin
 date: 2026-02-06
 image:
   - src: "/images/accessibility-pdf.png"
-    alt: "article image"
+    alt: "Tabulated data of organic vs non-organic produce in Canada"
 ---
 
 Tables are useful for displaying data and organizing information neatly. However, table headers have a semantic purpose: they should define the scope of a group of related cells. Using table headers solely for visual formatting should instead be treated as a label, not a true header.
