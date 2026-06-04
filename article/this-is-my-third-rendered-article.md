@@ -14,11 +14,13 @@ images:
     alt: "article image"
 ---
 
-This is a milestone for sticking through and building a working web page application that renders out markdown files into content that lives on a website.
+While going through Scrimba’s Learning React course, I built a small travel journal app as a hands-on way to learn React.
 
-This is a second paragraph to see if the writing from Decap CMS gets rendered to the server.
+I started by getting comfortable with components and JSX, which changed how I think about building UIs—I began breaking everything into small, reusable pieces instead of one big page.
 
-I am realizing that every time i add or update an existing article, i need to republish it.
+As I built the app, I used props to pass in travel data like images, places, and descriptions, which made it feel more dynamic and organized.
+
+By the end, I had a simple working app and a much better understanding of how React handles component structure and data flow.
 
 {% ImageWrapper images[0].src , images[0].alt %}
 
