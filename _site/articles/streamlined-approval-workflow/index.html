@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Texo Studio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header class="site-header">
+    <div class="site-header-inner">
+    <!-- Logo -->
+     <div class="logo-group">
+        <img class="logo" src="/images/texo-icon-blue.png">
+         <h1>Texo Studio</h1>
+    </div>
+    <!-- Hamburger menu --> 
+    <button class="menu-toggle" aria-label="Toggle Menu" aria-expanded="false">
+        <span class="hamburger"></span>
+        <span class="close-icon"></span>
+    </button>
+
+
+    <!-- Site Navigation -->
+     <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/articles">Articles</a></li>
+            <li><a href="/projects">Projects</a></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+  <main>
+    <section class="article">
+      <article class="article-post">
+      <h1>Streamlined Approval Workflow</h1>
+      <p>This mock-up application was completed in two months using plain HTML, CSS and JavaScript to support a streamlined approval workflow between departments.</p>
+<h2>Organization</h2>
+<p><strong>Canadian Investment Regulatory Organization</strong></p>
+<p>The Canadian Investment Regulatory Organization (CIRO) is the national self-regulatory organization overseeing Canada’s investment and mutual fund sectors. Formed through the consolidation of IIROC and the MFDA, CIRO works to protect investors and strengthen confidence in the Canadian capital markets.</p>
+<p>Investor Alerts inform the main public on their website informing them about potential harmful activity by organizations and individuals.</p>
+<h2>Purpose of the Redesign and the Goal</h2>
+<p>The goal is to disseminate alerts quickly to the public to uphold the organization's mission to protecting investors from fraudulent activity. This process involves approval of alerts from the Complaints and Inquiry, social media messaging from the Communication team and website publishing within two hours of approval.</p>
+<p>The redesign provides a new layout for the public to identify alerts and for web content administrators to keep information readable and accessible.</p>
+<h2>Research and Strategy</h2>
+<p>As a web maintainer, one of the challenges in sharing alerts to the public was the amount of duplicate information was required to post in two different content types: creating a new publication and updating an existing list of alerts.</p>
+<p>This becomes crucial, as the time it takes to share on both social media and on the website is dependent on where the information is housed - the website.</p>
+<h3>Creating a new publication</h3>
+<p>Much of the content used in the publication for alerts gets recycled into a shorter message used to update an existing list of alerts.</p>
+<h3>Existing Alerts</h3>
+<p>Recycled messaging gets appended to the list of Investor Alerts that include content that spans as far back as 2021 - highlighting the organization's branding before the amalgamation. The Investor Alert page soon becomes an ongoing list of items hidden inside an accordion component.</p>
+<p>Workflow Process Diagram</p>
+<p>Current</p>
+<p>Start &gt; Complaints and Inquiry &gt; Investor Alert Approval &gt; Create Investor Alert Publication &gt; Create Investor Alert Summary &gt; Provide Links for Social Media &gt; End</p>
+<p>Proposed</p>
+<p>Start &gt; Complaints and Inquiry &gt; Investor Alert Approval &gt; Create Investor Alert and Summary &gt; Provide Links for Social Media &gt; Clean Up or Archive &gt; End</p>
+<h2>Challenges</h2>
+<h3>Publication Process</h3>
+<p>Social media messaging is dependent on including links that is housed on the website
+Alerts are shared in a formal publication and remixed into a shorter alert that involve duplicating content</p>
+<h3>User Friendly Layout</h3>
+<p>The page has grown into a large webpage with on-going list of alerts include content from 2021 and before the amalgamation
+An accessible accordion with aria-labels but many items in the accordion container creates high interaction cost and cognitive load as readers scan headings, decide what to open and click repeatedly to expand and collapse</p>
+<h2>Design Strategy and Development</h2>
+<h3>Investor Alert Form</h3>
+<p>Include two sections, Alert Details, Category and Risk Level which provide screen readers structure and meaning to groups of related form fields. This form will house all information the feeds into creating the main publication and a summary that gets added to the list of previous Investor Alerts.</p>
+<h3>Admin View</h3>
+<p>Includes two sections, Ready for Review and Overdue alerts that give the site maintainer the ability to quality check alerts that ready for publishing and to delete alerts.</p>
+<p>An expiration function was included that compares dates which lists out alerts under the overdue section if it exceeds two days being published.</p>
+<h3>Main Page</h3>
+<p>The most recent alert is highlighted with a green border with all other alerts listed sorted by date in descending order. The component card layout for each alert has been styled with the type of alert category, title, short summary and related link.</p>
+<p>The purpose is to provide clear labels of the alert for readability and for users to scan easily in comparison to collapsible items in an accordion.</p>
+<h2>Reflection</h2>
+<p>Creating the prototype using Drupal's site building features such as creating content types and view - making this process more realistic by using content from a form to create a publication and a templated view of alerts.</p>
+<p>An updated feature I would have included would be to expand into an archival page with search features that allow readers to sort and filter by date and investor alert type. Including a call to action link to the archive of alerts can be beneficial to identifying fraudulent activity trends for enforcement and help investors be more aware.</p>
+
+      </article>
+    </section>
+  </main>
+     <footer>
+    <section class="footer-inner">
+            <div>
+                <p>Ryan Saballa<br>
+                Made in Toronto with <span style="color: #e25555;">&#9829;</span></p>
+            </div>
+            <div>
+                <p>Copyright ©2025</p>
+            </div>
+    </section>
+</footer>
+    <script src="/js/main.js" type="module"></script>
+</body>
+</html>
