@@ -10,11 +10,11 @@ permalink: projects/{{slug}}/
 image: /images/tcm-screenshot-06.png
 images:
   - src: "/images/tcm-screenshot-00.png"
-    alt: "image"
+    alt: "Table of structure content page titles and page paths."
   - src: "/images/tcm-screenshot-01.jpg"
-    alt: ""
+    alt: "Information chart outlining a website structure from top-down."
   - src: "/images/tcm-screenshot-02.png"
-    alt: ""
+    alt: "Table of structure content blog page titles and page paths for content migration."
   - src: "/images/tcm-screenshot-03.png"
     alt: ""
   - src: "/images/tcm-screenshot-04.png"

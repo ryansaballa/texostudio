@@ -879,7 +879,7 @@ pre code {
   .footer-inner {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
   }
 }
 
@@ -941,5 +941,10 @@ pre code {
 
   .article-container {
     flex-direction: column;
+  }
+
+  /* footer */
+  .footer-inner {
+    text-align: left;
   }
 }

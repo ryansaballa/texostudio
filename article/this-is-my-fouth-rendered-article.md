@@ -22,4 +22,4 @@ On the development side, I focused on managing state in vanilla JavaScript—tra
 
 By the end, I had a lightweight journaling flow that feels personal, persistent, and intentionally minimal—built entirely without frameworks.
 
-Try thinking of three questions to focus on and [test the journal on the web](https://reflect-focus-tab-rs.netlify.app/)
+Try thinking of three questions to focus on and [test the journal on the web](https://reflect-focus-tab-rs.netlify.app/).
