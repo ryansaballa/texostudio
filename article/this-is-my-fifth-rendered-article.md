@@ -14,7 +14,7 @@ images:
     alt: "article image"
 ---
 
-This mock-up application was completed in two months using plain HTML, CSS and JavaScript to support a streamlined approval workflow between departments.
+This mock-up web application was built using plain HTML, CSS and JavaScript to support a streamlined approval workflow between departments. This would act a proposal for building a Content Type using Drupal CMS.
 
 ## Organization
 
@@ -44,16 +44,6 @@ Much of the content used in the publication for alerts gets recycled into a shor
 
 Recycled messaging gets appended to the list of Investor Alerts that include content that spans as far back as 2021 - highlighting the organization's branding before the amalgamation. The Investor Alert page soon becomes an ongoing list of items hidden inside an accordion component.
 
-Workflow Process Diagram
-
-Current
-
-Start > Complaints and Inquiry > Investor Alert Approval > Create Investor Alert Publication > Create Investor Alert Summary > Provide Links for Social Media > End
-
-Proposed
-
-Start > Complaints and Inquiry > Investor Alert Approval > Create Investor Alert and Summary > Provide Links for Social Media > Clean Up or Archive > End
-
 ## Challenges
 
 ### Publication Process
@@ -67,6 +57,8 @@ Start > Complaints and Inquiry > Investor Alert Approval > Create Investor Alert
 - An accessible accordion with aria-labels but many items in the accordion container creates high interaction cost and cognitive load as readers scan headings, decide what to open and click repeatedly to expand and collapse
 
 ## Design Strategy and Development
+
+[View the proposed Investor Alerts web application](https://investor-alerts-rs.netlify.app/)
 
 ### Investor Alert Form
 
