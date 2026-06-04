@@ -4,7 +4,7 @@ slug: streamlined-approval-workflow
 layout: layouts/post.njk
 permalink: articles/{{slug}}/
 tags: articles
-description: "An article about processing Investor Alerts"
+description: "A proposal for CIRO Investor Alerts using forms for streamlining approvals and content updates with HTML, CSS and JavaScript."
 date: 2026-02-08
 image: "/images/front-end-img.jpg"
 images:
@@ -30,17 +30,17 @@ The goal is to disseminate alerts quickly to the public to uphold the organizati
 
 The redesign provides a new layout for the public to identify alerts and for web content administrators to keep information readable and accessible.
 
-## Research and Strategy
+## Strategy
 
 As a web maintainer, one of the challenges in sharing alerts to the public was the amount of duplicate information was required to post in two different content types: creating a new publication and updating an existing list of alerts.
 
 This becomes crucial, as the time it takes to share on both social media and on the website is dependent on where the information is housed - the website.
 
-### Creating a new publication
+**Creating a new publication**
 
 Much of the content used in the publication for alerts gets recycled into a shorter message used to update an existing list of alerts.
 
-### Existing Alerts
+**Existing Alerts**
 
 Recycled messaging gets appended to the list of Investor Alerts that include content that spans as far back as 2021 - highlighting the organization's branding before the amalgamation. The Investor Alert page soon becomes an ongoing list of items hidden inside an accordion component.
 
