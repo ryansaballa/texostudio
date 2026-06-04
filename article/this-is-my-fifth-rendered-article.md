@@ -14,7 +14,7 @@ images:
     alt: "article image"
 ---
 
-This mock-up web application was built using plain HTML, CSS and JavaScript to support a streamlined approval workflow between departments. This would act a proposal for building a Content Type using Drupal CMS.
+This mock-up web application was built using plain HTML, CSS and JavaScript to support a streamlined approval workflow between departments. This would act as a proposal for building a Content Type using Drupal CMS.
 
 ## Organization
 
