@@ -35,44 +35,51 @@
     <section class="article">
       <article class="article-post">
       <h1>Streamlined Approval Workflow</h1>
-      <p>This mock-up web application was built using plain HTML, CSS and JavaScript to support a streamlined approval workflow between departments. This would act as a proposal for building a Content Type using Drupal CMS.</p>
-<h2>Organization</h2>
+      <h2>Organization</h2>
 <p><strong>Canadian Investment Regulatory Organization</strong></p>
 <p>The Canadian Investment Regulatory Organization (CIRO) alerts the main public on their website about potential fraudulent activity by organizations and individuals.</p>
 <h2>Purpose of the Redesign and the Goal</h2>
-<p>The goal is to disseminate alerts quickly to the public to uphold the organization's mission to protecting investors from fraudulent activity. This process involves approval of alerts from the Complaints and Inquiry, social media messaging from the Communication team and website publishing within two hours of approval.</p>
-<p>The redesign provides a new layout for the public to identify alerts and for web content administrators to keep information readable and accessible.</p>
-<h2>Strategy</h2>
-<p>As a web maintainer, one of the challenges in sharing alerts to the public was the amount of duplicate information was required to post in two different content types: creating a new publication and updating an existing list of alerts.</p>
-<p>This becomes crucial, as the time it takes to share on both social media and on the website is dependent on where the information is housed - the website.</p>
-<p><strong>Creating a new publication</strong></p>
-<p>Much of the content used in the publication for alerts gets recycled into a shorter message used to update an existing list of alerts.</p>
-<p><strong>Existing Alerts</strong></p>
-<p>Recycled messaging gets appended to the list of Investor Alerts that include content that spans as far back as 2021 - highlighting the organization's branding before the amalgamation. The Investor Alert page soon becomes an ongoing list of items hidden inside an accordion component.</p>
-<h2>Challenges</h2>
-<h3>Publication Process</h3>
+<p>Investor Alerts help protect investors by quickly publishing fraud warnings to the public. The process requires approved alerts to be published on the website and shared through social media within two hours.</p>
+<p>This redesign improves both the public-facing experience and the publishing workflow for web administrators.</p>
+<h2>Problem</h2>
+<h3>Content Duplication</h3>
+<p>Publishing an alert required maintaining the same information in multiple content types:</p>
+<p>A full alert publication
+A separate Investor Alerts listing</p>
+<p>This duplicated effort slowed publishing and increased the risk of inconsistencies.</p>
+<h3>Poor Content Discovery</h3>
+<p>The Investor Alerts page had evolved into a lengthy accordion containing alerts dating back to 2021. While accessible, the growing list increased cognitive load and required excessive interaction to browse and compare alerts.</p>
+<h2>Solution</h2>
+<h3>Unified Alert Workflow</h3>
+<p>A single Investor Alert form captures all required information and automatically supports both:</p>
 <ul>
-<li>Social media messaging is dependent on including links that is housed on the website</li>
-<li>Alerts are shared in a formal publication and remixed into a shorter alert that involve duplicating content</li>
+<li>The full alert publication</li>
+<li>A summarized alert listing</li>
 </ul>
-<h3>User Friendly Layout</h3>
+<p>Field groups such as Alert Details, Category, and Risk Level improve structure, accessibility, and content management.</p>
+<h3>Administrative Dashboard</h3>
+<p>A dedicated admin view helps content editors:</p>
 <ul>
-<li>The page has grown into a large webpage with on-going list of alerts include content from 2021 and before the amalgamation</li>
-<li>An accessible accordion with aria-labels but many items in the accordion container creates high interaction cost and cognitive load as readers scan headings, decide what to open and click repeatedly to expand and collapse</li>
+<li>Review alerts before publication</li>
+<li>Identify overdue alerts</li>
+<li>Remove outdated content</li>
 </ul>
-<h2>Design Strategy and Development</h2>
+<p>An automated expiration feature flags alerts that remain published beyond two days.</p>
+<h3>Improved User Experience</h3>
+<p>The latest alert is prominently featured, while previous alerts are displayed in a card-based layout sorted by date. Each card includes:</p>
+<ul>
+<li>Alert category</li>
+<li>Title</li>
+<li>Summary</li>
+<li>Related links</li>
+</ul>
+<p>This approach improves readability and allows users to quickly scan alerts without navigating multiple accordion panels.</p>
+<h2>Prototype</h2>
 <p><a href="https://investor-alerts-rs.netlify.app/">View the proposed Investor Alerts web application</a></p>
-<h3>Investor Alert Form</h3>
-<p>Include two sections, Alert Details, Category and Risk Level which provide screen readers structure and meaning to groups of related form fields. This form will house all information the feeds into creating the main publication and a summary that gets added to the list of previous Investor Alerts.</p>
-<h3>Admin View</h3>
-<p>Includes two sections, Ready for Review and Overdue alerts that give the site maintainer the ability to quality check alerts that ready for publishing and to delete alerts.</p>
-<p>An expiration function was included that compares dates which lists out alerts under the overdue section if it exceeds two days being published.</p>
-<h3>Main Page</h3>
-<p>The most recent alert is highlighted with a green border with all other alerts listed sorted by date in descending order. The component card layout for each alert has been styled with the type of alert category, title, short summary and related link.</p>
-<p>The purpose is to provide clear labels of the alert for readability and for users to scan easily in comparison to collapsible items in an accordion.</p>
 <h2>Reflection</h2>
-<p>Creating the prototype using Drupal's site building features such as creating content types and view - making this process more realistic by using content from a form to create a publication and a templated view of alerts.</p>
-<p>An updated feature I would have included would be to expand into an archival page with search features that allow readers to sort and filter by date and investor alert type. Including a call to action link to the archive of alerts can be beneficial to identifying fraudulent activity trends for enforcement and help investors be more aware.</p>
+<p>This prototype was created to validate and communicate a potential solution within the Drupal ecosystem before implementation. While the prototype itself was built using HTML, CSS, and JavaScript, it was designed around Drupal concepts such as content types, structured fields, Views, and editorial workflows.</p>
+<p>By creating a working prototype, the Communications and Compliants &amp; Inquiries team could evaluate the publishing experience, information architecture, and user interface before development began in Drupal.</p>
+<p>A future enhancement would be an archive page with filtering and search capabilities, allowing users to browse alerts by date, category, and fraud type. This would help investors identify emerging fraud trends while improving long-term content discoverability.</p>
 
       </article>
     </section>
