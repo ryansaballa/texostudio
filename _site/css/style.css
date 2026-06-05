@@ -4,8 +4,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  grid-template-rows: auto 1fr;
-  grid-template-columns: 1fr;
 }
 
 /* background */
@@ -805,9 +803,7 @@ pre code {
   }
 
   /* articles page layout */
-  .article-list {
-    grid-template-columns: repeat(2, 1fr);
-  }
+
   .article-container {
     flex-direction: column;
   }
@@ -859,16 +855,7 @@ pre code {
   }
 
   /* projects */
-  .projects {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "a1"
-      "a2"
-      "a3"
-      "a4"
-      "a5"
-      "a6";
-  }
+
   .projects .post {
     flex-direction: row;
     gap: 2em;
