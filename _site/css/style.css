@@ -721,10 +721,12 @@ footer {
 }
 
 .footer-inner {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  max-width: 1200px;
   margin: auto;
   text-align: center;
+  align-items: center;
 }
 
 /* code block for .md file */
@@ -814,9 +816,10 @@ pre code {
 
   /* footer */
   .footer-inner {
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: left;
+    align-items: center;
+    text-align: left;
   }
 }
 
