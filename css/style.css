@@ -723,7 +723,8 @@ footer {
 .footer-inner {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  max-width: 1200px;
+  padding: 0 1.25em;
   margin: auto;
   text-align: center;
   align-items: center;
