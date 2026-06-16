@@ -11,12 +11,20 @@ image: /images/tcm-screenshot-06.png
 images:
   - src: "/images/tcm-screenshot-00.png"
     alt: "Table of structure content page titles and page paths."
+    caption: "List of Page Titles and URL paths."
+
   - src: "/images/tcm-screenshot-01.jpg"
     alt: "Information chart outlining a website structure from top-down."
+    caption: "Information chart outlining a website structure from top-down."
+
   - src: "/images/tcm-screenshot-02.png"
-    alt: "Table of structure content blog page titles and page paths for content migration."
+    alt: "Information chart outlining a website structure from top-down."
+    caption: "test"
+
   - src: "/images/tcm-screenshot-03.png"
-    alt: ""
+    alt: ">"
+    caption:
+
   - src: "/images/tcm-screenshot-04.png"
     alt: ""
   - src: "/images/tcm-screenshot-05.png"
@@ -58,8 +66,8 @@ There was a good amount of information related to volunteering opportunities, co
 The content audit was focused on how to unite the organization’s impact with stories from staff, volunteers, and guest speakers through key communications collateral such as events and newsletters. Designing well-structured blog categories with meaningful, SEO-rich content was the goal to improve navigation and discoverability.
 
 {% ImageWrapperMultiple [
-  { src: "/images/tcm-screenshot-00.png", alt:"screenshot 1" },
-  { src: "/images/tcm-screenshot-02.png", alt:"screenshot 2" }
+  { src: "/images/tcm-screenshot-00.png", alt: images[0].alt, caption: images[0].caption},
+  { src: "/images/tcm-screenshot-02.png", alt: images[1].alt, caption: images[1].caption}
 ]%}
 
 ### Non-profit Website Layout Research
@@ -76,7 +84,7 @@ The manual process involved batching each content item with the appropriate impa
 
 Creating a Notion-documented workbench ensured every entry was properly migrated and formatted in the new webpage layout, while re-creating stories included restoring internal links to their corresponding program, community, or blog pages.
 
-{% ImageWrapper images[3].src, images[0].alt %}
+{% ImageWrapper images[3].src, images[0].alt, images[3].caption%}
 
 **Working within the constraints of Squarespace templates**
 
@@ -96,7 +104,7 @@ Redesigned the homepage with a full-width layout, integrating clear calls to act
 
 {% ImageWrapperMultiple [
   { src: "/images/tcm-screenshot-04.png", alt:"screenshot 1" },
-  { src: "/images/tcm-screenshot-09.png", alt:"screenshot 2" }
+  { src: "/images/tcm-screenshot-09.png", alt:"Information chart outlining a website structure from top-down." }
 ]%}
 
 ### Program and Community Landing Pages

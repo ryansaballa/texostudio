@@ -414,7 +414,6 @@ main {
   max-width: 75%;
   height: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 3em auto;
 }
 
 .styled-image figcaption {
@@ -486,6 +485,7 @@ main {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  padding: 2em 0;
 }
 
 .image-flex-container .styled-image {

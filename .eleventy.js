@@ -29,6 +29,7 @@ module.exports = function (eleventyConfig) {
         (img) =>
           `<div class="styled-image">
           <img src="${img.src}" alt="${img.alt}" class="image" loading="lazy" />
+          ${img.caption ? `<figcaption>${img.caption}</figcaption>` : ""}
         </div>`,
       )
       .join("")
@@ -41,11 +42,14 @@ module.exports = function (eleventyConfig) {
   })
 
   // Shortcode for styled image wrapper
-  eleventyConfig.addShortcode("ImageWrapper", function (src, alt) {
+  eleventyConfig.addShortcode("ImageWrapper", function (src, alt, caption) {
     return `
-      <div class="styled-image">
+    <div class="image-flex-container">
+      <figure class="styled-image">
       <img src="${src}" alt="${alt}" class="image" loading="lazy" />
-      </div>
+      ${caption ? `<figcaption>${caption}</figcaption>` : ""}
+      </figure>
+    </div>
       `
   })
 
