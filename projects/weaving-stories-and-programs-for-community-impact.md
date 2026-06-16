@@ -10,35 +10,45 @@ permalink: projects/{{slug}}/
 image: /images/tcm-screenshot-06.png
 images:
   - src: "/images/tcm-screenshot-00.png"
-    alt: "Table of structure content page titles and page paths."
-    caption: "List of Page Titles and URL paths."
+    alt: "Table of structure content page titles and page paths"
+    caption: "Structuring URL paths, categories and content types"
 
   - src: "/images/tcm-screenshot-01.jpg"
-    alt: "Information chart outlining a website structure from top-down."
-    caption: "Information chart outlining a website structure from top-down."
+    alt: "Information chart outlining a website structure from top-down"
+    caption: "Information chart outlining a website structure from top-down"
 
   - src: "/images/tcm-screenshot-02.png"
-    alt: "Information chart outlining a website structure from top-down."
+    alt: "Information chart outlining a website structure from top-down"
     caption: "test"
 
   - src: "/images/tcm-screenshot-03.png"
-    alt: ">"
-    caption:
+    alt: "Table of old and new URL paths for blog content"
+    caption: "A table of old and new URL paths for organizing and migrating blog content"
 
   - src: "/images/tcm-screenshot-04.png"
-    alt: ""
+    alt: "TCM Homepage prior to the redesign"
+    caption: "Before: Initial Homepage"
+
   - src: "/images/tcm-screenshot-05.png"
-    alt: ""
+    alt: "Before: Long linear layout of blog posts"
+    caption: "Before: Long linear layout of blog posts"
+
   - src: "/images/tcm-screenshot-06.png"
-    alt: ""
+    alt: "After: Redesigned layout of blog posts organized as a grid"
+    caption: "After: Stories categorized and tagged displayed in a grid layout"
+
   - src: "/images/tcm-screenshot-07.png"
-    alt: ""
+    alt: "Redesign layout for program landing pages"
+    caption: "After: Redesigned landing pages for TCM programs"
   - src: "/images/tcm-screenshot-08.png"
-    alt: ""
+    alt: "Redesigned layout for community landing pages"
+    caption: "After: TCM community landing page layout"
   - src: "/images/tcm-screenshot-09.png"
-    alt: ""
+    alt: "Redesigned Homepage"
+    caption: "After: Redesigned Homepage"
   - src: "/images/tcm-screenshot-10.png"
-    alt: ""
+    alt: "Initial layout for program landing pages"
+    caption: "Before: Landing page for each TCM program"
 ---
 
 This website design project was completed in 6 months in collaboration with the Communications Team and Operations Director at Toronto City Mission (TCM) to enhance the organization’s offerings and community programs with kids and teens.
@@ -103,8 +113,8 @@ Below is a summary of changes of the main sections on the website. Screenshots a
 Redesigned the homepage with a full-width layout, integrating clear calls to action for programs, communities, volunteering, stories, events, and donations.
 
 {% ImageWrapperMultiple [
-  { src: "/images/tcm-screenshot-04.png", alt:"screenshot 1" },
-  { src: "/images/tcm-screenshot-09.png", alt:"Information chart outlining a website structure from top-down." }
+  { src: "/images/tcm-screenshot-04.png", alt: images[4].alt, caption: images[4].caption},
+  { src: "/images/tcm-screenshot-09.png", alt: images[9].alt, caption: images[9].caption}
 ]%}
 
 ### Program and Community Landing Pages
@@ -112,10 +122,10 @@ Redesigned the homepage with a full-width layout, integrating clear calls to act
 The layout was redesigned for a wider content fit, featuring internal links to related communities with program and volunteer information, while giving readers the opportunity to explore additional stories connected to each program.
 
 {% ImageWrapperMultiple [
-  { src: "/images/tcm-screenshot-10.png", alt:"screenshot 1" },
-  { src: "/images/tcm-screenshot-07.png", alt:"screenshot 2" },
-  { src: "/images/tcm-screenshot-10.png", alt:"screenshot 2" },
-  { src: "/images/tcm-screenshot-08.png", alt:"screenshot 2" }
+  { src: "/images/tcm-screenshot-10.png", alt: images[10].alt, caption: images[10].caption },
+  { src: "/images/tcm-screenshot-07.png", alt: images[7].alt, caption: images[7].caption },
+  { src: "/images/tcm-screenshot-10.png", alt: images[10].alt, caption: images[10].caption },
+  { src: "/images/tcm-screenshot-08.png", alt: images[8].alt, caption: images[8].caption }
 ]%}
 
 ### Collection of Stories
@@ -123,8 +133,8 @@ The layout was redesigned for a wider content fit, featuring internal links to r
 Linear scrolling blogs were redesigned into a branded grid of stories, structured with meaningful categories highlighting staff and volunteer perspectives, key community impact stories, and organizational announcements.
 
 {% ImageWrapperMultiple [
-  { src: "/images/tcm-screenshot-05.png", alt:"screenshot 1" },
-  { src: "/images/tcm-screenshot-06.png", alt:"screenshot 2" }
+  { src: "/images/tcm-screenshot-05.png", alt: image[5].alt, caption: images[5].caption },
+  { src: "/images/tcm-screenshot-06.png", alt: image[6].alt, caption: images[6].caption }
 ]%}
 
 ## Reflection
