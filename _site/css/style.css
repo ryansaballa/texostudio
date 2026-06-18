@@ -134,7 +134,7 @@ tbody tr:hover {
   margin: auto;
   align-items: center;
   justify-content: space-between;
-  background-color: #fafafa;
+  background-color: white;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1);
   z-index: 999;
 }
@@ -168,7 +168,7 @@ nav {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: #fafafa;
+  background: white;
 }
 
 /* enables nav when menu is toggled */

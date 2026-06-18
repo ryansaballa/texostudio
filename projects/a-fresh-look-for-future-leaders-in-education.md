@@ -10,23 +10,26 @@ image: /images/bed-tyndale-05.png
 date: 2026-02-02
 images:
   - src: "/images/bed-tyndale-00.png"
-    alt: "image"
+    alt: "Initial homepage layout before the redesign"
+    caption: "Before: Bachelor of Education landing page"
   - src: "/images/bed-tyndale-01.png"
-    alt: ""
+    alt: "Tabulated information of new webpage titles, URL paths, content types and redirects"
+    caption: "Managing information of new webpage titles, URL paths, content types and redirects"
   - src: "/images/bed-tyndale-02.png"
-    alt: ""
+    alt: "Grouping content in meaningful categories displayed as sticky notes"
+    caption: "Organizing content as static or dynamic to define parent/child pages and calls-to-action as sticky notes"
   - src: "/images/bed-tyndale-034.png"
-    alt: ""
-  - src: "/images/bed-tyndale-04.png"
-    alt: ""
+    alt: "Final information architecture diagram that defines parent/child pages"
+    caption: "The final structure of the Bachelor of Education website outlining parent/child and student application pages"
   - src: "/images/bed-tyndale-05.png"
-    alt: ""
+    alt: "After: Bachelor of Education landing page"
+    caption: "After: Bachelor of Education landing page"
   - src: "/images/bed-tyndale-06.png"
-    alt: ""
+    alt: "After: Bachelor of Education program track page"
+    caption: "After: Program Track page layout"
   - src: "/images/bed-tyndale-07.png"
-    alt: ""
-  - src: "/images/bed-tyndale-08.png"
-    alt: ""
+    alt: "List of department faculty members in a grid layout"
+    caption: "After: A view based on a custom BEd Faculty content type displayed as a grid"
 ---
 
 This website design project was completed in 4 months in collaboration with Tyndale University’s web manager and stakeholders including the Admissions and Bachelor of Education department.
@@ -43,7 +46,7 @@ Tyndale University is a Christian university in Toronto offering a wide range of
 
 The Bachelor of Education is a unique program among all other Bachelor programs at Tyndale University. The purpose of the redesign was to lead with a compelling story and path for potential students to explore by streamlining the admissions program track information to increase student applications.
 
-{% ImageWrapper images[0].src, images[0].alt %}
+{% ImageWrapper images[0].src, images[0].alt, images[0].caption %}
 
 ## Research and Strategy
 
@@ -51,17 +54,17 @@ The Bachelor of Education is a unique program among all other Bachelor programs 
 
 The first step was to audit the web section including the home page and sub-links such as the different program tracks, information about tuition, application information and information sessions. This includes creating a plan for new URL paths and redirects.
 
-{% ImageWrapper images[1].src, images[1].alt %}
+{% ImageWrapper images[1].src, images[1].alt, images[1].caption %}
 
 Using Drupal as a Content Management System, it was important to organize the different Content Types, Views and Blocks that will be used to communicate with the web developer and web manager.
 
 Documenting all affected web pages led to planning out the structure of the new section. The diagram below is a brainstorm exercise that inform myself and the web manager to help categorize information as a stand-alone pages, a sub-section, or a page with content views and/or blocks.
 
-{% ImageWrapper images[2].src, images[2].alt %}
+{% ImageWrapper images[2].src, images[2].alt, images[2].caption %}
 
 Determining the content structure of the site informed the overall information (IA) structure including all relevant sub pages. The image below is a screen shot of the same IA split into two parts.
 
-{% ImageWrapper images[3].src, images[3].alt %}
+{% ImageWrapper images[3].src, images[3].alt, images[3].caption %}
 
 ## Challenges
 
@@ -88,7 +91,7 @@ The website redesign included updated the micro-copy and content layout patterns
 
 New templates and content blocks were created that enabled a better experience for website maintenance (as administrator) and for content readability (as a prospective student online).
 
-{% ImageWrapper images[5].src, images[5].alt %}
+{% ImageWrapper images[5].src, images[5].alt, images[5].caption %}
 
 ### Organize Content for Readability
 
@@ -100,7 +103,7 @@ New templates and content blocks were created that enabled a better experience f
 - Content Block
   - Static content about Application information was turned into a block. Given information about Application would change often in different sections of the site – including a content block on the main web page was designed for better website maintenance.
 
-{% ImageWrapper images[6].src, images[6].alt %}
+{% ImageWrapper images[6].src, images[6].alt, images[6].caption %}
 
 ### Keeping it Simple with Grid
 
