@@ -78,6 +78,24 @@ hr {
   margin: 2rem 0;
 }
 
+.cta-project-button {
+  background: #fafafa;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 1rem;
+}
+
+.cta-project-button:hover {
+  background: white;
+  border: 1px solid black;
+}
+
+.cta-project-button a {
+  text-decoration: none;
+  color: black;
+}
+
 /* table styling */
 
 table {

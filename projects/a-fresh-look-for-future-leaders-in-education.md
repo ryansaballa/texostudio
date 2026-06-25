@@ -32,15 +32,15 @@ images:
     caption: "After: A view based on a custom BEd Faculty content type displayed as a grid"
 ---
 
-This website design project was completed in 4 months in collaboration with Tyndale University’s web manager and stakeholders including the Admissions and Bachelor of Education department.
+This website design project was completed in 4 months in collaboration with Tyndale University’s web manager and stakeholders including the Admissions and Bachelor of Education department. The website has gone through a handful of UI updates since the initial redesign but can be accessed with the Wayback Machine.
+
+<button class="cta-project-button"><a href="https://web.archive.org/web/20240914105601/https://www.tyndale.ca/education">View the Project</a></button>
 
 ## Organization
 
 Tyndale University
 
 Tyndale University is a Christian university in Toronto offering a wide range of programs at the undergraduate, seminary & graduate levels. Tyndale's Bachelor of Education (BEd) program is a unique program that accelerates the process to become a certified teacher in Ontario over 16 consecutive months.
-
-The project has gone through a handful of UI updates since the initial redesign. [Explore the redesign project](https://web.archive.org/web/20240914105601/https://www.tyndale.ca/education) sourced by the Wayback Machine.
 
 <hr>
 
