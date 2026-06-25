@@ -51,7 +51,9 @@ images:
     caption: "Before: Landing page for each TCM program"
 ---
 
-This website design project was completed in 6 months in collaboration with the Communications Team and Operations Director at Toronto City Mission (TCM) to enhance the organization’s offerings and community programs with kids and teens.
+This website design project was completed in 6 months in collaboration with the Communications Team and Operations Director at Toronto City Mission (TCM) to enhance the organization’s offerings and community programs with kids and teens. The website has gone through a handful of UI updates since the initial redesign but can be accessed with the Wayback Machine.
+
+<button class="cta-project-button"><a href="https://web.archive.org/web/20241116084039/https://www.torontocitymission.com/">View the Project</a></button>
 
 ## Organization
 
