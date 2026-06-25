@@ -25,6 +25,8 @@ images:
 
 This website design project was completed in 2 months using Drupal and SharePoint in collaboration with Human Resources and Corporate Communication and Public Affairs.
 
+<button class="cta-project-button"><a href="https://www.ciro.ca/about-ciro/careers">Explore the Careers Page</a></button>
+
 ## Organization
 
 **Canadian Investment Regulatory Organization**
