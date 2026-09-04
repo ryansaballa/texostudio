@@ -633,10 +633,12 @@ main {
   margin-bottom: 2em;
 }
 
-.project-post h3,
 .project-post h2,
 .project-post p {
   margin: 0.5em 0em;
+}
+.project-post h3 {
+  margin-bottom: 1em;
 }
 
 /* project layout styling */

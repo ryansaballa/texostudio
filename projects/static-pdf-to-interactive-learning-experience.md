@@ -6,7 +6,7 @@ layout: layouts/projects.njk
 description: "This concept redesign reimagines the guide as a dedicated web experience optimized for accessibility, mobile devices, and progressive learning about how newcomers can learn about saving and investing."
 slug: static-pdf-interactive-learning
 permalink: projects/{{slug}}/
-image: /images/ciro-about-careers-featured.png
+image: /images/investor-guide-newcomers.png
 date: 2026-02-06
 images:
 ---
