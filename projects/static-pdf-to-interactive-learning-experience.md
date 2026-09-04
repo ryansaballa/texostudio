@@ -9,18 +9,6 @@ permalink: projects/{{slug}}/
 image: /images/ciro-about-careers-featured.png
 date: 2026-02-06
 images:
-  src: "/images/ciro-careers.png"
-  alt: "image"
-  src: "/images/careers-site-structure-current.png"
-  alt: "image"
-  src: "/images/careers-site-structure-proposal.png"
-  alt: "image"
-  src: "/images/ciro-about-careers.png"
-  alt: "image"
-  src: "/images/ciro-focus-well-being.png"
-  alt: "image"
-  src: "/images/ciro-bottom-section.png"
-  alt: "image"
 ---
 
 The Guide to Investing for Newcomers to Canada provides important information about banking, saving, investing, risk, and fraud prevention for individuals new to Canada. Currently, the guide is delivered as a PDF, requiring users to navigate a lengthy document to access information.
