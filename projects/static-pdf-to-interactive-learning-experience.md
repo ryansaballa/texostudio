@@ -35,8 +35,6 @@ For newcomers who may be unfamiliar with Canadian investing, the learning experi
 
 Create a web-first educational experience that helps newcomers learn investment fundamentals through structured navigation and interactive content.
 
-Including these pillars into the CIRO brand provided the opportunity to re-thinking the web experience on both CIRO's public facing website and employee internal site (intranet).
-
 ## Key Components
 
 ### Guided Learning Navigation
