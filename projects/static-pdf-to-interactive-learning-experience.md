@@ -6,8 +6,8 @@ layout: layouts/projects.njk
 description: "This concept redesign reimagines the guide as a dedicated web experience optimized for accessibility, mobile devices, and progressive learning about how newcomers can learn about saving and investing."
 slug: static-pdf-interactive-learning
 permalink: projects/{{slug}}/
-image: /images/investor-guide-newcomers.png
-date: 2026-02-06
+image: /images/newcomers-guide-investing-featured.jpg
+date: 2026-09-04
 images:
 ---
 
@@ -59,8 +59,6 @@ One of the guide's core concepts is explaining the difference between saving and
 ### Continued Learning Checkboxes
 
 The guide transformed static, siloed PDFs into an interactive learning experience, allowing readers to explore related resources and bookmark topics of interest. Checkboxes track their selections and generate a personalized list of resources to revisit later.
-
-The proposed site structure re-positioned important information including the organization's commitment to inclusion, accessibility and its mission on the main careers page. The main careers page was re-designed to identify dead-end points of exploration, leading online readers to either learn more about CIRO's EVPs or learn about open job opportunities.
 
 This makes a foundational investing concept easier to understand.
 
