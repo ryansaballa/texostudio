@@ -17,7 +17,7 @@ The Dealer Explorer is a React-based web application that uses **Leaflet** to re
 
 The solution combines geographic visualization with automated data collection through a custom JavaScript scraper that retrieves dealer information from CIRO's published JSON datasets. Users can explore provincial dealer registrations and firm details across Canada.
 
-<button class="cta-project-button"><a href="https://ciro-dealers.netlify.app/">Explore the Interative Map</a></button>
+<button class="cta-project-button"><a href="https://ciro-dealers.netlify.app/">Explore the Interactive Map</a></button>
 
 ---
 
