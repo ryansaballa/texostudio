@@ -1,5 +1,5 @@
 ---
-title: From Data to Map: Visualizing Regulated Dealers
+title: "From Data to Map: Visualizing Regulated Dealers"
 tags:
   - projects
 layout: layouts/projects.njk
@@ -9,7 +9,6 @@ description: "An interactive React and Leaflet dashboard that visualizes CIRO-re
 image: /images/ciro-interactive-map-featured.png
 date: 2026-09-21
 images:
-  
 ---
 
 ## Overview
