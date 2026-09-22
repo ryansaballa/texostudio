@@ -15,7 +15,7 @@ images:
 
 The Dealer Explorer is a React-based web application that uses **Leaflet** to render an interactive map of Canada and display dealer statistics by province.
 
-The solution combines geographic visualization with automated data collection through a custom JavaScript scraper that retrieves dealer information from CIRO's published JSON datasets. Users can explore provincial regulatory activity, including dealer registrations, branch offices, approved persons, and firm details across Canada.
+The solution combines geographic visualization with automated data collection through a custom JavaScript scraper that retrieves dealer information from CIRO's published JSON datasets. Users can explore provincial dealer registrations and firm details across Canada.
 
 <button class="cta-project-button"><a href="https://ciro-dealers.netlify.app/">Explore the Interative Map</a></button>
 
@@ -72,9 +72,7 @@ A browser-based JavaScript scraper extracts and structures dealer information fr
 
 Users can view:
 
-- Mutual Fund Dealer approved persons
 - Mutual Fund Dealer branch offices
-- Investment Dealer approved persons
 - Investment Dealer branch offices
 - Dealer locations and contact information
 
