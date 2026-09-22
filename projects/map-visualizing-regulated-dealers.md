@@ -6,7 +6,7 @@ layout: layouts/projects.njk
 slug: from-data-to-map-visualizing-regulated-dealers
 permalink: /projects/{{ slug }}/
 description: "An interactive React and Leaflet dashboard that visualizes CIRO-regulated dealers across Canada, combining geographic exploration with automated regulatory data collection."
-image: /images/bed-tyndale-05.png
+image: /images/ciro-interactive-map-featured.png
 date: 2026-09-21
 images:
   
